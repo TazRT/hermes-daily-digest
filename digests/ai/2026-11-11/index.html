@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI ニュース・モデル指標 ダイジェスト</title>
+<style>
+  *{box-sizing:border-box} body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;background:#0b0f19;color:#e8eaf2;margin:0;padding:24px}
+  .wrap{max-width:980px;margin:0 auto}
+  header{border-bottom:1px solid #2a334c;padding-bottom:16px;margin-bottom:24px}
+  h1{font-size:26px;margin:0 0 6px 0;color:#fff;letter-spacing:.4px}
+  .stamp{color:#94a3b8;font-size:13px}
+  .muted{color:#94a3b8;font-size:12.5px}
+  h2{font-size:16px;margin:26px 0 10px;border-bottom:1px solid #2a334c;padding-bottom:6px;color:#cbd5e1}
+  table{width:100%;border-collapse:collapse;margin-bottom:24px;background:#111827;border:1px solid #1f2937}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #1f2937;font-size:14px}
+  th{color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.6px}
+  tr:hover{background:#16213a}
+  .rank{width:40px;color:#94a3b8;font-weight:bold}
+  .name a{color:#60a5fa;text-decoration:none}
+  .name a:hover{text-decoration:underline}
+  .score{font-weight:bold;color:#fbbf24}
+  .bar{width:120px;height:8px;background:#1f2937;border-radius:4px;overflow:hidden;margin-right:8px;display:inline-block;vertical-align:middle}
+  .fill{height:100%;background:#fbbf24}
+  .price,.speed{color:#cbd5e1}
+  .rankbox{margin-bottom:24px}
+  .rankbox table{width:auto}
+  .tier{display:inline-block;padding:2px 10px;border:1px solid #334155;border-radius:999px;font-size:11px;color:#94a3b8;margin-bottom:16px}
+  footer{margin-top:36px;padding-top:16px;border-top:1px solid #1f2937;color:#64748b;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>AI ニュース・モデル指標 ダイジェスト</h1>
+  <div class="stamp">データ更新: 2026-11-11 08:01 JST　出典: Artificial Analysis MCP (tier: unknown / インテリジェンス指数 v)</div>
+</header>
+
+<div class="tier">Artificial Analysis — Free-tier スナップショット</div>
+
+<h2>言語モデル インテリジェンス指数 TOP10</h2>
+<table>
+<thead><tr><th>順位</th><th>モデル</th><th>開発元</th><th>リリース</th><th>指数</th><th>入力価格</th><th>出力価格</th><th>生成速度</th></tr></thead>
+<tbody><tr><td class='rank'>1</td><td class='name'><a href='https://artificialanalysis.ai/models/claude-opus-5-5' target='_blank'>Claude Opus 5.5 (Max, Default Fallback)</a></td><td class='creator'>Anthropic</td><td class='date'>2026-09-22</td><td class='score'><div class='bar'><div class='fill' style='width:59%'></div></div> 59.1</td><td class='price'>$4.00 / 1Mトークン</td><td class='price'>$20.00 / 1Mトークン</td><td class='speed'>115.9 tok/s</td></tr><tr><td class='rank'>2</td><td class='name'><a href='https://artificialanalysis.ai/models/gemini-4-carbon-medium' target='_blank'>Gemini 4 Carbon (Medium)</a></td><td class='creator'>Google</td><td class='date'>2026-10-28</td><td class='score'><div class='bar'><div class='fill' style='width:58%'></div></div> 58.3</td><td class='price'>$4.00 / 1Mトークン</td><td class='price'>$20.00 / 1Mトークン</td><td class='speed'>72.0 tok/s</td></tr><tr><td class='rank'>3</td><td class='name'><a href='https://artificialanalysis.ai/models/gpt-6-astra' target='_blank'>GPT-6 Astra (Max)</a></td><td class='creator'>OpenAI</td><td class='date'>2026-09-03</td><td class='score'><div class='bar'><div class='fill' style='width:57%'></div></div> 56.9</td><td class='price'>$10.00 / 1Mトークン</td><td class='price'>$50.00 / 1Mトークン</td><td class='speed'>37.2 tok/s</td></tr><tr><td class='rank'>4</td><td class='name'><a href='https://artificialanalysis.ai/models/claude-fable-5-2-medium' target='_blank'>Claude Fable 5.2 (Medium, Default Fallback)</a></td><td class='creator'>Anthropic</td><td class='date'>2026-11-09</td><td class='score'><div class='bar'><div class='fill' style='width:56%'></div></div> 56.4</td><td class='price'>$8.00 / 1Mトークン</td><td class='price'>$40.00 / 1Mトークン</td><td class='speed'>90.7 tok/s</td></tr><tr><td class='rank'>5</td><td class='name'><a href='https://artificialanalysis.ai/models/gpt-6-astra-xhigh' target='_blank'>GPT-6 Astra (Xhigh)</a></td><td class='creator'>OpenAI</td><td class='date'>2026-09-03</td><td class='score'><div class='bar'><div class='fill' style='width:55%'></div></div> 55.3</td><td class='price'>$10.00 / 1Mトークン</td><td class='price'>$50.00 / 1Mトークン</td><td class='speed'>39.2 tok/s</td></tr><tr><td class='rank'>6</td><td class='name'><a href='https://artificialanalysis.ai/models/gpt-6-1-sol-xhigh' target='_blank'>GPT-6.1 Sol (Xhigh)</a></td><td class='creator'>OpenAI</td><td class='date'>2026-09-29</td><td class='score'><div class='bar'><div class='fill' style='width:52%'></div></div> 52.5</td><td class='price'>$2.00 / 1Mトークン</td><td class='price'>$10.00 / 1Mトークン</td><td class='speed'>53.5 tok/s</td></tr><tr><td class='rank'>7</td><td class='name'><a href='https://artificialanalysis.ai/models/gpt-6-1-sol-high' target='_blank'>GPT-6.1 Sol (High)</a></td><td class='creator'>OpenAI</td><td class='date'>2026-09-29</td><td class='score'><div class='bar'><div class='fill' style='width:50%'></div></div> 50.3</td><td class='price'>$2.00 / 1Mトークン</td><td class='price'>$10.00 / 1Mトークン</td><td class='speed'>56.8 tok/s</td></tr><tr><td class='rank'>8</td><td class='name'><a href='https://artificialanalysis.ai/models/claude-fable-5-1' target='_blank'>Claude Fable 5.1 (Max, Default Fallback)</a></td><td class='creator'>Anthropic</td><td class='date'>2026-09-01</td><td class='score'><div class='bar'><div class='fill' style='width:49%'></div></div> 49.2</td><td class='price'>$10.00 / 1Mトークン</td><td class='price'>$50.00 / 1Mトークン</td><td class='speed'>87.8 tok/s</td></tr><tr><td class='rank'>9</td><td class='name'><a href='https://artificialanalysis.ai/models/claude-fable-5-1-medium' target='_blank'>Claude Fable 5.1 (Medium, Default Fallback)</a></td><td class='creator'>Anthropic</td><td class='date'>2026-09-01</td><td class='score'><div class='bar'><div class='fill' style='width:43%'></div></div> 43.2</td><td class='price'>$10.00 / 1Mトークン</td><td class='price'>$50.00 / 1Mトークン</td><td class='speed'>82.2 tok/s</td></tr><tr><td class='rank'>10</td><td class='name'><a href='https://artificialanalysis.ai/models/claude-sonnet-5-5-high' target='_blank'>Claude Sonnet 5.5 (High, Default Fallback)</a></td><td class='creator'>Anthropic</td><td class='date'>2026-09-28</td><td class='score'><div class='bar'><div class='fill' style='width:42%'></div></div> 41.5</td><td class='price'>$2.00 / 1Mトークン</td><td class='price'>$10.00 / 1Mトークン</td><td class='speed'>140.2 tok/s</td></tr></tbody>
+</table>
+<p class="muted">全 200 モデル（スナップショット時点）。インテリジェンス指数は Artificial Analysis の複合ベンチマークスコアです。</p>
+
+<h2>生成メディア アリーナランキング</h2>
+<section class='rankbox'><h2>rankings-text-to-image</h2><table><thead><tr><th>順位</th><th>モデル</th></tr></thead><tbody><tr><td class='rank'>1</td><td class='name'>GPT Image 2.6 Sunburst (max)</td></tr><tr><td class='rank'>2</td><td class='name'>GPT Image 2.5 Sunburst (max)</td></tr><tr><td class='rank'>3</td><td class='name'>GPT Image 2.6 Flare (max)</td></tr><tr><td class='rank'>4</td><td class='name'>GPT Image 2.5 Flare (max)</td></tr><tr><td class='rank'>5</td><td class='name'>GPT Image 2 (high)</td></tr></tbody></table></section><section class='rankbox'><h2>rankings-text-to-video</h2><table><thead><tr><th>順位</th><th>モデル</th></tr></thead><tbody><tr><td class='rank'>1</td><td class='name'>HeyGen Video 1</td></tr><tr><td class='rank'>2</td><td class='name'>MiniMax H3 Max</td></tr><tr><td class='rank'>3</td><td class='name'>FLUX 3 Max</td></tr><tr><td class='rank'>4</td><td class='name'>Wan 3.0</td></tr><tr><td class='rank'>5</td><td class='name'>Utopai X</td></tr></tbody></table></section>
+
+<h2>補足・注記</h2>
+<ul>
+<li>価格は入力・出力それぞれ 100万トークンあたりの米ドル表記です。</li>
+<li>生成速度は mean_output_tokens_per_second（直近5日間ウィンドウ平均）です。</li>
+<li>モデル名リンクは Artificial Analysis のモデル詳細ページへ遷移します。</li>
+<li>本ページは情報提供を目的とし、投資助言ではありません。</li>
+</ul>
+<footer>Hermes Agent / NewsFromAI — AI ダイジェスト</footer>
+</div>
+</body>
+</html>
