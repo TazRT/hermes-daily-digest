@@ -1,84 +1,93 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>世界の経済・マーケット・ニュース ダイジェスト — 2026-11-21 07:00 JST</title>
-<meta property="og:title" content="世界の経済・マーケット・ニュース ダイジェスト 2026-11-21">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://tazrt.github.io/hermes-daily-digest/digests/2026-11-21/digest-20261121-0700.html">
-<meta property="og:description" content="AI株主導の全面安。NASDAQ -5.28% で年初来マイナス、VIX 35.89。米PCE・感謝祭休場を控えた週の経済・マーケット・世界ニュース。">
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>世界の経済・マーケット・ニュース・AI ダイジェスト — 2026-11-21 17:00</title>
+<meta property="og:title" content="世界の経済・マーケット・ニュース・AI ダイジェスト — 2026-11-21 17:00">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tazrt.github.io/hermes-daily-digest/digests/2026-11-21/digest-20261121-1700.html">
+<meta property="og:description" content="AI株再評価でS&amp;P500が調整局面入り。ナスダック週間10%安、VIX 35.89。TradingView・Yahoo Finance・Finviz・公式RSS・Artificial Analysis MCPに基づく2026-11-21 17:00 JSTのダイジェスト。">
 <meta name="twitter:card" content="summary_large_image">
 <style>
-:root{--bg:#0b1020;--panel:#151b30;--ink:#e8ecf7;--mut:#9aa4bf;--pos:#31c48d;--neg:#f36b6b;--acc:#7aa2ff}
+:root{--bg:#0b0f14;--card:#131a22;--line:#1f2937;--fg:#e6edf3;--mut:#8b98a5;--up:#3fb950;--dn:#f85149}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.65}
-.wrap{max-width:1080px;margin:0 auto;padding:32px 20px 64px}
-header{border-bottom:1px solid #26304d;padding-bottom:18px;margin-bottom:24px}
-h1{font-size:26px;margin:0 0 8px}
-.stamp{color:var(--mut);font-size:13px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0 30px}
-.card{background:var(--panel);border:1px solid #26304d;border-radius:12px;padding:12px 14px}
-.card .k{color:var(--mut);font-size:12px;letter-spacing:.04em}
-.card .v{font-size:22px;font-weight:700;margin:4px 0}
-.card .c{font-size:13px;font-weight:600}
-.up{color:var(--pos)} .down{color:var(--neg)}
-h2{font-size:19px;margin:32px 0 10px;border-left:4px solid var(--acc);padding-left:10px}
-h3{font-size:15px;color:var(--mut);margin:18px 0 8px;font-weight:600}
-section ul{margin:0;padding-left:20px} section li{margin:6px 0}
-table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0 14px}
-th,td{padding:6px 8px;border-bottom:1px solid #222b45;text-align:left}
-th{color:var(--mut);font-weight:600;font-size:12px}
-td.r{text-align:right;font-variant-numeric:tabular-nums}
-td.nm{color:var(--mut)}
-.pos{color:var(--pos)} .neg{color:var(--neg)}
-.bar{display:grid;grid-template-columns:190px 1fr 70px;gap:10px;align-items:center;margin:5px 0;font-size:13px}
-.bar em{color:var(--mut);font-style:normal;font-size:11px}
-.track{background:#1d2540;height:8px;border-radius:4px;overflow:hidden}
-.track i{display:block;height:100%}
-.track i.neg{background:var(--neg)} .track i.pos{background:var(--pos)}
-.bar .val{text-align:right;font-variant-numeric:tabular-nums}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+body{margin:0;background:var(--bg);color:var(--fg);
+ font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif;
+ -webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 20px 48px}
+header{border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:20px}
+h1{font-size:21px;margin:0 0 6px;letter-spacing:.01em}
+.asof{color:var(--mut);font-size:11.5px;line-height:1.6}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0 22px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kpi .l{color:var(--mut);font-size:10.5px;letter-spacing:.04em}
+.kpi .v{font-size:19px;font-weight:600;margin-top:3px;font-variant-numeric:tabular-nums}
+.kpi .d{font-size:11px;margin-top:2px}
+.breadth{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:24px}
+.b{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.b .l{color:var(--mut);font-size:10.5px} .b .v{font-size:18px;font-weight:600;margin-top:3px;
+ font-variant-numeric:tabular-nums}
+h2{font-size:13.5px;margin:0 0 10px;color:#c9d1d9;font-weight:600;letter-spacing:.02em}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:760px){.grid2{grid-template-columns:1fr}}
-a{color:#9db8ff}
-footer{margin-top:36px;color:var(--mut);font-size:12px;border-top:1px solid #26304d;padding-top:14px}
-.note{background:#161d33;border:1px solid #26304d;border-radius:10px;padding:10px 14px;font-size:13px;color:var(--mut)}
-</style>
-</head>
-<body><div class="wrap">
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{padding:6px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:500;font-size:10.5px;letter-spacing:.03em}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.sym{color:var(--mut);font-size:11px;white-space:nowrap}
+td.nm{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+td.rate{color:var(--mut);text-align:right;white-space:nowrap}
+.up{color:var(--up)} .dn{color:var(--dn)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 14px}
+.card ul{margin:0;padding-left:16px} .card li{font-size:12.5px;line-height:1.65;margin-bottom:3px}
+.bar{background:#0f1620;border-radius:3px;height:7px;width:100%;overflow:hidden}
+.bar span{display:block;height:100%} .bar span.up{background:var(--up)} .bar span.dn{background:var(--dn)}
+.tl{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid var(--line)}
+.tl .d{color:var(--mut);font-size:11px;min-width:78px;font-variant-numeric:tabular-nums}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{background:#182234;border:1px solid var(--line);border-radius:6px;padding:2px 7px;font-size:11px}
+.chip i{color:var(--mut);font-style:normal;margin-left:5px;font-size:10px}
+.newsgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.newsgrp h3{font-size:11.5px;color:var(--mut);margin:0 0 6px;letter-spacing:.03em;font-weight:600}
+.newsgrp ul{margin:0;padding-left:14px} .newsgrp li{font-size:12px;line-height:1.5;margin-bottom:5px}
+.newsgrp a{color:var(--fg);text-decoration:none;border-bottom:1px solid #2b3644}
+.newsgrp .src{display:block;color:var(--mut);font-size:10px;margin-top:1px}
+footer{color:var(--mut);font-size:10.5px;margin-top:26px;line-height:1.7;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="wrap">
 <header>
-<h1>世界の経済・マーケット・ニュース ダイジェスト</h1>
-<div class="stamp">データ更新: 2026-11-21 07:00 JST ／ 米国株 2026-11-20 NYクローズ・日本株 2026-11-20 東証クローズ・香港 2026-11-20 クローズ</div>
+<h1>世界の経済・マーケット・ニュース・AI ダイジェスト</h1>
+<div class="asof">2026-11-21 17:00 (JST) ／ 日本株=直近の東証終値、米株=直近のNY終値
+／ TradingView スナップショット 2026-11-21 17:00
+／ equity 287 銘柄（quote 取得 312 件中）</div>
 </header>
-<div class="kpis"><div class="card"><div class="k">S&amp;P 500</div><div class="v">6,910.39</div><div class="c down">-3.70%</div></div>
-<div class="card"><div class="k">NASDAQ</div><div class="v">22,617.73</div><div class="c down">-5.28%</div></div>
-<div class="card"><div class="k">ダウ平均</div><div class="v">48,147.33</div><div class="c down">-1.93%</div></div>
-<div class="card"><div class="k">VIX</div><div class="v">35.89</div><div class="c down">+26.20%</div></div>
-<div class="card"><div class="k">日経平均</div><div class="v">56,436.65</div><div class="c down">-5.06%</div></div>
-<div class="card"><div class="k">米10年債</div><div class="v">4.912%</div><div class="c down">-14.0bp</div></div>
-<div class="card"><div class="k">金 (GC=F)</div><div class="v">3,533.70</div><div class="c down">-4.12%</div></div>
-<div class="card"><div class="k">BTC</div><div class="v">58,809.24</div><div class="c down">-4.33%</div></div></div>
-<section><h2>米国セクター別（前日比、Yahoo Finance）</h2><div class="bar"><span class="nm">テクノロジー <em>XLK</em></span><span class="track"><i class="neg" style="width:90.9%"></i></span><span class="val">-7.27%</span></div>
-<div class="bar"><span class="nm">工業 <em>XLI</em></span><span class="track"><i class="neg" style="width:38.6%"></i></span><span class="val">-3.09%</span></div>
-<div class="bar"><span class="nm">一般消費財 <em>XLY</em></span><span class="track"><i class="neg" style="width:36.9%"></i></span><span class="val">-2.95%</span></div>
-<div class="bar"><span class="nm">コミュニケーション <em>XLC</em></span><span class="track"><i class="neg" style="width:33.2%"></i></span><span class="val">-2.66%</span></div>
-<div class="bar"><span class="nm">素材 <em>XLB</em></span><span class="track"><i class="neg" style="width:27.4%"></i></span><span class="val">-2.19%</span></div>
-<div class="bar"><span class="nm">金融 <em>XLF</em></span><span class="track"><i class="neg" style="width:22.8%"></i></span><span class="val">-1.82%</span></div>
-<div class="bar"><span class="nm">不動産 <em>XLRE</em></span><span class="track"><i class="neg" style="width:12.2%"></i></span><span class="val">-0.98%</span></div>
-<div class="bar"><span class="nm">公益事業 <em>XLU</em></span><span class="track"><i class="neg" style="width:9.2%"></i></span><span class="val">-0.74%</span></div>
-<div class="bar"><span class="nm">エネルギー <em>XLE</em></span><span class="track"><i class="neg" style="width:7.8%"></i></span><span class="val">-0.62%</span></div>
-<div class="bar"><span class="nm">ヘルスケア <em>XLV</em></span><span class="track"><i class="neg" style="width:1.5%"></i></span><span class="val">-0.12%</span></div>
-<div class="bar"><span class="nm">生活必需品 <em>XLP</em></span><span class="track"><i class="pos" style="width:8.4%"></i></span><span class="val">+0.67%</span></div></section>
-<section><h2>経済・市場</h2><ul><li>米国株はAI関連主導で全面安。NASDAQ -5.28% で年初来マイナス、S&amp;P500 -3.70%・ダウ -1.93% は調整局面入り。</li><li>VIX 35.89（+26.20%）と急騰、2025年の関税混乱期以来の高水準。債券は買われ10年債 4.912%（-14bp）。</li><li>金 -4.12%（3,533.7）、ビットコイン -4.33%（5万8,809）と逃避先が債券・ドルに偏った。日経平均 -5.06%。</li></ul></section>
-<section><h2>マーケット・株価（TradingView）</h2><ul><li>TradingView MCP が日次クォータ超過（TOOL_QUOTA_EXCEEDED）で全呼び出しブロック。取得銘柄0件。</li><li>ウォッチリストの騰落率・RSI・テクニカル判定、決算・経済カレンダーはデータなし。数値の推測補完は行っていない。</li><li>代替はセクターETF（XLK -7.27%、XLP +0.67%）とFinvizスクリーナー。次回17:00に再取得を試行。</li></ul></section>
-<section><h2>今週の決算・注目イベント</h2><ul><li>ウォッチリスト決算カレンダーはデータなし（TradingView クォータ超過）。</li><li>来週は 11/23 フラッシュPMI、11/24 米消費者信頼感・Dell/HP決算、11/25 米GDP・PCE・ベージュブック。</li><li>11/23 は東京休場（勤労感謝の日）、11/26 は米国が感謝祭で休場、11/27 は短縮取引。</li></ul></section>
-<section><h2>マーケット・ニュース（出典別）</h2><ul><li>Bloomberg: 恐怖が世界市場に波及、VIXは関税混乱期以来の高値、ゴールドマンは「売りは続く」。</li><li>MarketWatch: エヌビディアの週間下落は2008年以来、Anthropic株は上場初値をかろうじて維持。</li><li>Investing.com/Motley Fool: AI相場からバリュー株へ資金移動、NVDAにSEC会計調査報道、BTCが6万ドル割れ。</li></ul></section>
-<section><h2>スクリーニング（Finviz）</h2><ul><li>値上がり上位: GAP +11.44%、GPN +9.95%、PMI +7.78%、NTLA +5.04%、HDB +4.50%。</li><li>値下がり上位: CSIQ -24.94%、MARA -18.57%、SHAZ -18.06%、IREN -17.97%、APLD -17.81%。</li><li>下落側はクリプトマイナーとAIデータセンター関連に集中。上昇側は決算好材料と公益。</li></ul></section>
-<section><h2>アナリスト動向（Yahoo Finance）</h2><ul><li>目標株価の乖離は NVDA・MSFT・META・GOOGL で大きく、AI前提の下方修正リスクを内包。</li><li>NVDA の今四半期EPS予想 2.88 USD（前年比+78%）、売上 1,308億USD。評価は買い34・強い買い11。</li><li>MSFT は今四半期EPS 4.86 USD、売上 967億USD、買い41・強い買い12とコンセンサスは依然強気。</li></ul></section>
-<section><h2>世界のニュース</h2><ul><li>米中露3者会談（深圳）は平和宣言のみでウクライナ・イランに言及なし。トランプ氏はイランへの判断を年明けに先送り。</li><li>ロシアのキエフ攻撃で8人死亡、ポーランドにミサイル飛来。ウクライナはケルチ橋を攻撃。</li><li>ICJがミャンマーのロヒンギャ虐殺を認定、リヤドの高層ビルにフーシ派攻撃、欧州25カ国でデモ。</li></ul></section>
-<section><h2>見通し・留意点</h2><ul><li>VIX 35.89 と高ボラティリティが継続。11/25 の米PCE・GDPが週の分岐点。</li><li>AI相場の前提が崩れれば目標株価コンセンサスの下方修正が連鎖するリスク。</li><li>欠損: TradingView ウォッチリスト全般・決算/経済カレンダー、Finvizバルク、YahooバルクEPS。休場・短縮取引で流動性低下にも注意。</li></ul></section>
-<section><h2>スクリーニング（Finviz）</h2><div class="grid2"><div><h3>値上がり率 上位10</h3><table><thead><tr><th>コード</th><th>銘柄</th><th>セクター</th><th class="r">株価</th><th class="r">前日比</th></tr></thead><tbody><tr><td>AEMD</td><td class="nm">Aethlon Medical Inc</td><td>ヘルスケア</td><td class="r">5.46</td><td class="r pos">+12.81%</td></tr><tr><td>GAP</td><td class="nm">Gap Inc</td><td>一般消費財</td><td class="r">20.94</td><td class="r pos">+11.44%</td></tr><tr><td>GPN</td><td class="nm">Global Payments Inc</td><td>テクノロジー</td><td class="r">91.83</td><td class="r pos">+9.95%</td></tr><tr><td>PMI</td><td class="nm">Picard Medical Inc</td><td>ヘルスケア</td><td class="r">6.79</td><td class="r pos">+7.78%</td></tr><tr><td>NTLA</td><td class="nm">Intellia Therapeutics Inc</td><td>ヘルスケア</td><td class="r">10.00</td><td class="r pos">+5.04%</td></tr><tr><td>HTFL</td><td class="nm">Heartflow Inc</td><td>ヘルスケア</td><td class="r">46.69</td><td class="r pos">+4.62%</td></tr><tr><td>HDB</td><td class="nm">HDFC Bank Ltd ADR</td><td>金融</td><td class="r">27.42</td><td class="r pos">+4.50%</td></tr><tr><td>KVYO</td><td class="nm">Klaviyo Inc</td><td>テクノロジー</td><td class="r">22.24</td><td class="r pos">+4.41%</td></tr><tr><td>RKT</td><td class="nm">Rocket Companies Inc</td><td>金融</td><td class="r">13.75</td><td class="r pos">+4.25%</td></tr><tr><td>BIP</td><td class="nm">Brookfield Infrastructure Partners</td><td>公益</td><td class="r">42.81</td><td class="r pos">+4.24%</td></tr></tbody></table></div><div><h3>値下がり率 上位10</h3><table><thead><tr><th>コード</th><th>銘柄</th><th>セクター</th><th class="r">株価</th><th class="r">前日比</th></tr></thead><tbody><tr><td>CSIQ</td><td class="nm">Canadian Solar Inc</td><td>テクノロジー(ソーラー)</td><td class="r">6.02</td><td class="r neg">-24.94%</td></tr><tr><td>MARA</td><td class="nm">MARA Holdings Inc</td><td>金融(クリプト)</td><td class="r">5.09</td><td class="r neg">-18.57%</td></tr><tr><td>SHAZ</td><td class="nm">SharonAI Holdings Inc</td><td>テクノロジー</td><td class="r">16.83</td><td class="r neg">-18.06%</td></tr><tr><td>IREN</td><td class="nm">IREN Ltd</td><td>金融(クリプト)</td><td class="r">11.82</td><td class="r neg">-17.97%</td></tr><tr><td>APLD</td><td class="nm">Applied Digital Corp</td><td>テクノロジー</td><td class="r">11.49</td><td class="r neg">-17.81%</td></tr><tr><td>AEVA</td><td class="nm">Aeva Technologies Inc</td><td>テクノロジー</td><td class="r">7.88</td><td class="r neg">-17.66%</td></tr><tr><td>HUT</td><td class="nm">Hut 8 Corp</td><td>金融(クリプト)</td><td class="r">45.95</td><td class="r neg">-17.65%</td></tr><tr><td>QMCO</td><td class="nm">Quantum Corp</td><td>テクノロジー</td><td class="r">11.48</td><td class="r neg">-17.23%</td></tr><tr><td>WYFI</td><td class="nm">Whitefiber Inc</td><td>テクノロジー</td><td class="r">6.35</td><td class="r neg">-16.99%</td></tr><tr><td>AEHR</td><td class="nm">Aehr Test Systems</td><td>半導体製造装置</td><td class="r">39.84</td><td class="r neg">-16.90%</td></tr></tbody></table></div></div></section>
-<section><h2>世界のニュース</h2><ul><li><a href="https://worldwatch.media/en/digest/2026-11-20">米中露3者首脳会談（11/19、深圳）は「核戦争は決して戦ってはならない」とする平和宣言で閉幕したが、ウクライナ戦争とイラン情勢には言及がなく、実効性に疑問符。</a> <span class="src">World Watch</span></li><li><a href="https://www.justsecurity.org/165471/early-edition-november-20-2026/">トランプ大統領はイランへの次の一手について「年明けまで決めない」と表明。ベンス副大統領は中間選挙の敗因をイラン戦争と原油高に結びつけたと報じられた。</a> <span class="src">Just Security</span></li><li><a href="https://www.euronews.com/2026/11/20">ロシアがウクライナへの攻撃を継続し、キエフでは8人死亡。ポーランドにはロシアの巡航ミサイルとドローンが飛来し、ポーランド首相は「意図的な挑発」と非難した。ウクライナはケルチ橋を攻撃。</a> <span class="src">Euronews</span></li><li><a href="https://theworld.fyi/today">国際司法裁判所（ICJ）はミャンマー軍によるロヒンギャへのジェノサイドを認定。ミャンマー側は「不当」と反発している。</a> <span class="src">The World</span></li><li><a href="https://theworld.fyi/today">サウジアラビア・リヤドの金融街の高層ビルがフーシ派の攻撃を受け、イラン支援の武装勢力との戦争が拡大。</a> <span class="src">The World</span></li><li><a href="https://www.npr.org/2026/11/20/nx-s1-6048777/the-news-roundup-for-november-20-2026">米国で銀行・航空・メール・セキュリティに関わるシステム障害が相次ぎ、ホワイトハウスは国家サイバー担当官を交代させた。デジタルインフラの脆弱性が政治問題化している。</a> <span class="src">NPR</span></li><li><a href="https://www.npr.org/2026/11/20/nx-s1-6048777/the-news-roundup-for-november-20-2026">アラスカ州上院選で民主党のメアリー・ペルトラ氏が現職のダン・サリバン氏を破り、上院の民主党系は56議席に。中間選挙後の政治地図が固まりつつある。</a> <span class="src">NPR</span></li><li><a href="https://www.euronews.com/2026/11/20">欧州25カ国以上で賃上げと公共サービスの拡充を求めるデモが同時多発。トルコ・アンタルヤのCOP31は最終盤で合意に難航し、環境NGOが「恥だ」と抗議した。</a> <span class="src">Euronews</span></li><li><a href="https://english.kyodonews.net/articles/-/92073">日本政府の世論調査で、中国との関係を「良くない」「どちらかといえば良くない」と答えた割合が93%に達した。高市首相の台湾有事発言以降の関係悪化が反映されている。</a> <span class="src">共同通信</span></li><li><a href="https://www.euronews.com/2026/11/20">スペインはデータセンターに対し電力の80%を再生可能エネルギーで賄うことを義務付ける規制を強化。欧州でデジタルインフラの電力・主権ルール作りが加速している。</a> <span class="src">Euronews</span></li></ul></section>
-<div class="note">TradingView MCP は本回日次クォータ超過のため、ウォッチリスト個別銘柄の株価・RSI・テクニカル判定はデータなし。推測による補完は行っていません。</div>
-<footer>出典: Yahoo Finance（価格・コンセンサス）、Finviz（スクリーナー）、Bloomberg / MarketWatch / Investing.com / Motley Fool（RSS）、Euronews / NPR / 共同通信 / World Watch ほか。情報提供目的で、投資助言ではありません。</footer>
+<div class="kpis"><div class='kpi'><div class='l'>TVC:NI225</div><div class='v'>56,436.65</div><div class='d dn'>-5.06%</div></div><div class='kpi'><div class='l'>AMEX:IVV</div><div class='v'>693.71</div><div class='d dn'>-3.52%</div></div><div class='kpi'><div class='l'>CBOE:VIX</div><div class='v'>35.89</div><div class='d up'>+26.20%</div></div><div class='kpi'><div class='l'>NASDAQ:QQQ</div><div class='v'>608.45</div><div class='d dn'>-5.67%</div></div></div>
+<div class="breadth">
+<div class="b"><div class="l">上昇</div><div class="v up">54</div></div>
+<div class="b"><div class="l">下落</div><div class="v dn">231</div></div>
+<div class="b"><div class="l">RSI≥70</div><div class="v">4</div></div>
+<div class="b"><div class="l">RSI≤30</div><div class="v">98</div></div>
+</div>
+<h2 style='margin-top:22px'>マーケット・ニュース（出典別）</h2><div class='card newsgrid'><div class='newsgrp'><h3>Investing.com</h3><ul><li><a href='https://www.investing.com/analysis/stocks-sink-despite-record-anthropic-ipo-gold-dives-dollar-shines-200691995'>Stocks Sink Despite Record Anthropic IPO, Gold Dives, Dollar Shines</a><span class='src'>2026-11-20T10:56</span></li><li><a href='https://www.investing.com/news/stock-market-news/how-are-ai-chip-flows-reshaping-dollar-dominance-deutsche-bank-explains-5043246'>How are AI chip flows reshaping dollar dominance? Deutsche Bank explains</a><span class='src'>2026-11-21T06:58</span></li><li><a href='https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444'>Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees</a><span class='src'>2026-11-21T02:12</span></li></ul></div><div class='newsgrp'><h3>MarketWatch</h3><ul><li><a href='https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories'>Dow, S&amp;P 500 enter correction as Nasdaq suffers worst week since 2020</a><span class='src'>2026-11-20T22:46</span></li><li><a href='https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories'>Anthropic’s stock sees dramatic slide but manages to stay above its IPO price</a><span class='src'>2026-11-20T21:25</span></li><li><a href='https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories'>Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade</a><span class='src'>2026-11-20T22:44</span></li></ul></div><div class='newsgrp'><h3>Motley Fool</h3><ul><li><a href='https://www.fool.com/investing/2026/11/20/if-the-nasdaq-s-correction-turns-into-a-bear-market-this-is-the-first-stock-i-ll-buy/?source=iedfolrf0000001'>If the Nasdaq&#x27;s Correction Turns Into a Bear Market, This Is the First Stock I&#x27;ll Buy</a><span class='src'>2026-11-20T22:57</span></li><li><a href='https://www.fool.com/investing/2026/11/21/here-s-my-top-ai-stock-to-buy-with-nvidia-in-uncertain-territory/?source=iedfolrf0000001'>Here’s My Top AI Stock to Buy With Nvidia in Uncertain Territory</a><span class='src'>2026-11-21T02:31</span></li><li><a href='https://www.fool.com/coverage/better-buy/2026/11/21/chipotle-mexican-grill-vs-e-l-f-beauty-which-consumer-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001'>Chipotle Mexican Grill vs. e.l.f. Beauty: Which Consumer Stock Is a Better Buy for 2027?</a><span class='src'>2026-11-21T02:27</span></li></ul></div><div class='newsgrp'><h3>Bloomberg</h3><ul><li><a href='https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video'>Trump Says Huang Should Return to Nvidia After ‘Big Apology’</a><span class='src'>2026-11-20T22:31</span></li></ul></div></div>
+<h2 style='margin-top:22px'>スクリーニング: 値上がり上位10（平均出来高100万株超・株価5ドル超）</h2><table><thead><tr><th>コード</th><th>名称</th><th>株価</th><th>前日比</th><th>P/E</th></tr></thead><tbody><tr><td class='sym'>AEMD</td><td class='nm'>Aethlon Medical Inc</td><td class='num'>5.46</td><td class='num up'>12.81%</td><td class='num'>—</td></tr><tr><td class='sym'>GAP</td><td class='nm'>Gap Inc</td><td class='num'>20.94</td><td class='num up'>11.44%</td><td class='num'>5.8</td></tr><tr><td class='sym'>GPN</td><td class='nm'>Global Payments Inc</td><td class='num'>91.83</td><td class='num up'>9.95%</td><td class='num'>109.2</td></tr><tr><td class='sym'>PMI</td><td class='nm'>Picard Medical Inc</td><td class='num'>6.79</td><td class='num up'>7.78%</td><td class='num'>—</td></tr><tr><td class='sym'>NTLA</td><td class='nm'>Intellia Therapeutics Inc</td><td class='num'>10.00</td><td class='num up'>5.04%</td><td class='num'>—</td></tr><tr><td class='sym'>HTFL</td><td class='nm'>Heartflow Inc</td><td class='num'>46.69</td><td class='num up'>4.62%</td><td class='num'>—</td></tr><tr><td class='sym'>HDB</td><td class='nm'>HDFC Bank Ltd ADR</td><td class='num'>27.42</td><td class='num up'>4.50%</td><td class='num'>16.3</td></tr><tr><td class='sym'>KVYO</td><td class='nm'>Klaviyo Inc</td><td class='num'>22.24</td><td class='num up'>4.41%</td><td class='num'>886.1</td></tr><tr><td class='sym'>RKT</td><td class='nm'>Rocket Companies Inc</td><td class='num'>13.75</td><td class='num up'>4.25%</td><td class='num'>30.0</td></tr><tr><td class='sym'>BIP</td><td class='nm'>Brookfield Infrastructure Partners</td><td class='num'>42.81</td><td class='num up'>4.24%</td><td class='num'>295.9</td></tr></tbody></table><h2 style='margin-top:22px'>スクリーニング: 値下がり上位10（平均出来高100万株超・株価5ドル超）</h2><table><thead><tr><th>コード</th><th>名称</th><th>株価</th><th>前日比</th><th>P/E</th></tr></thead><tbody><tr><td class='sym'>CSIQ</td><td class='nm'>Canadian Solar Inc</td><td class='num'>6.02</td><td class='num dn'>-24.94%</td><td class='num'>—</td></tr><tr><td class='sym'>MARA</td><td class='nm'>MARA Holdings Inc</td><td class='num'>5.09</td><td class='num dn'>-18.57%</td><td class='num'>—</td></tr><tr><td class='sym'>SHAZ</td><td class='nm'>SharonAI Holdings Inc</td><td class='num'>16.83</td><td class='num dn'>-18.06%</td><td class='num'>—</td></tr><tr><td class='sym'>IREN</td><td class='nm'>IREN Ltd</td><td class='num'>11.82</td><td class='num dn'>-17.97%</td><td class='num'>—</td></tr><tr><td class='sym'>APLD</td><td class='nm'>Applied Digital Corp</td><td class='num'>11.49</td><td class='num dn'>-17.81%</td><td class='num'>—</td></tr><tr><td class='sym'>AEVA</td><td class='nm'>Aeva Technologies Inc</td><td class='num'>7.88</td><td class='num dn'>-17.66%</td><td class='num'>—</td></tr><tr><td class='sym'>HUT</td><td class='nm'>Hut 8 Corp</td><td class='num'>45.95</td><td class='num dn'>-17.65%</td><td class='num'>—</td></tr><tr><td class='sym'>QMCO</td><td class='nm'>Quantum Corp</td><td class='num'>11.48</td><td class='num dn'>-17.23%</td><td class='num'>—</td></tr><tr><td class='sym'>WYFI</td><td class='nm'>Whitefiber Inc</td><td class='num'>6.35</td><td class='num dn'>-16.99%</td><td class='num'>—</td></tr><tr><td class='sym'>AEHR</td><td class='nm'>Aehr Test Systems</td><td class='num'>39.84</td><td class='num dn'>-16.90%</td><td class='num'>—</td></tr></tbody></table>
+<h2 style='margin-top:22px'>アナリスト目標株価（Yahoo Finance）</h2><table><thead><tr><th>コード</th><th>現在値</th><th>平均目標</th><th>最高</th><th>最低</th><th>乖離</th></tr></thead><tbody><tr><td class='sym'>AAPL</td><td class='num'>342.56</td><td class='num'>345.63</td><td class='num'>425.00</td><td class='num'>250.00</td><td class='num up'>0.9%</td></tr><tr><td class='sym'>MSFT</td><td class='num'>484.52</td><td class='num'>636.12</td><td class='num'>870.00</td><td class='num'>440.00</td><td class='num up'>31.3%</td></tr><tr><td class='sym'>NVDA</td><td class='num'>125.53</td><td class='num'>244.18</td><td class='num'>425.00</td><td class='num'>130.00</td><td class='num up'>94.5%</td></tr><tr><td class='sym'>AMZN</td><td class='num'>246.82</td><td class='num'>326.51</td><td class='num'>405.00</td><td class='num'>230.00</td><td class='num up'>32.3%</td></tr><tr><td class='sym'>GOOGL</td><td class='num'>265.29</td><td class='num'>397.13</td><td class='num'>500.00</td><td class='num'>300.00</td><td class='num up'>49.7%</td></tr><tr><td class='sym'>META</td><td class='num'>560.84</td><td class='num'>848.23</td><td class='num'>1,050.00</td><td class='num'>650.00</td><td class='num up'>51.2%</td></tr><tr><td class='sym'>TSLA</td><td class='num'>345.82</td><td class='num'>417.53</td><td class='num'>600.00</td><td class='num'>128.11</td><td class='num up'>20.7%</td></tr><tr><td class='sym'>WMT</td><td class='num'>127.95</td><td class='num'>135.76</td><td class='num'>155.00</td><td class='num'>81.00</td><td class='num up'>6.1%</td></tr><tr><td class='sym'>KO</td><td class='num'>96.99</td><td class='num'>99.64</td><td class='num'>112.00</td><td class='num'>88.00</td><td class='num up'>2.7%</td></tr><tr><td class='sym'>JPM</td><td class='num'>310.53</td><td class='num'>373.48</td><td class='num'>425.00</td><td class='num'>312.00</td><td class='num up'>20.3%</td></tr></tbody></table>
+<div class="grid2">
+<div><h2>騰落率 上位</h2><table><thead><tr><th>コード</th><th>名称</th><th>終値</th>
+<th>前日比</th><th>RSI</th><th>判定</th></tr></thead><tbody><tr><td class='sym'>AMEX:SOXS</td><td class='nm'>Direxion Daily Semiconductor Bear 3X E</td><td class='num'>83.16</td><td class='num up'>+31.71%</td><td class='num'>68</td><td class='rate'>買い</td></tr><tr><td class='sym'>AMEX:TECS</td><td class='nm'>Direxion Daily Technology Bear 3X ETF</td><td class='num'>104.28</td><td class='num up'>+21.92%</td><td class='num'>75</td><td class='rate'>強い買い</td></tr><tr><td class='sym'>AMEX:SPXS</td><td class='nm'>Direxion Daily S&amp;P 500 Bear 3X ETF</td><td class='num'>32.90</td><td class='num up'>+10.74%</td><td class='num'>76</td><td class='rate'>強い買い</td></tr><tr><td class='sym'>NYSE:RKT</td><td class='nm'>Rocket Companies, Inc. Class A</td><td class='num'>13.75</td><td class='num up'>+4.25%</td><td class='num'>55</td><td class='rate'>買い</td></tr><tr><td class='sym'>AMEX:TMF</td><td class='nm'>Direxion Daily 20+ Year Treasury Bull </td><td class='num'>29.48</td><td class='num up'>+3.91%</td><td class='num'>57</td><td class='rate'>買い</td></tr><tr><td class='sym'>NYSE:INFY</td><td class='nm'>Infosys Limited Sponsored ADR</td><td class='num'>12.03</td><td class='num up'>+3.26%</td><td class='num'>49</td><td class='rate'>中立</td></tr><tr><td class='sym'>AMEX:UNG</td><td class='nm'>United States Natural Gas Fund LP</td><td class='num'>10.56</td><td class='num up'>+2.92%</td><td class='num'>57</td><td class='rate'>買い</td></tr><tr><td class='sym'>NYSE:T</td><td class='nm'>AT&amp;T Inc</td><td class='num'>22.31</td><td class='num up'>+2.11%</td><td class='num'>50</td><td class='rate'>中立</td></tr><tr><td class='sym'>NYSE:VZ</td><td class='nm'>Verizon Communications Inc.</td><td class='num'>46.52</td><td class='num up'>+1.71%</td><td class='num'>56</td><td class='rate'>強い買い</td></tr><tr><td class='sym'>AMEX:EDV</td><td class='nm'>Vanguard Extended Duration Treasury ET</td><td class='num'>58.94</td><td class='num up'>+1.67%</td><td class='num'>56</td><td class='rate'>買い</td></tr><tr><td class='sym'>AMEX:EPI</td><td class='nm'>WisdomTree India Earnings Fund</td><td class='num'>45.36</td><td class='num up'>+1.59%</td><td class='num'>77</td><td class='rate'>強い買い</td></tr><tr><td class='sym'>TSE:7201</td><td class='nm'>Nissan Motor Co., Ltd.</td><td class='num'>266.30</td><td class='num up'>+1.41%</td><td class='num'>45</td><td class='rate'>売り</td></tr></tbody></table></div>
+<div><h2>騰落率 下位</h2><table><thead><tr><th>コード</th><th>名称</th><th>終値</th>
+<th>前日比</th><th>RSI</th><th>判定</th></tr></thead><tbody><tr><td class='sym'>AMEX:TECL</td><td class='nm'>Direxion Daily Technology Bull 3X ETF</td><td class='num'>92.99</td><td class='num dn'>-21.49%</td><td class='num'>26</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:TQQQ</td><td class='nm'>ProShares UltraPro QQQ</td><td class='num'>41.20</td><td class='num dn'>-15.94%</td><td class='num'>27</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:ICHR</td><td class='nm'>Ichor Holdings, Ltd.</td><td class='num'>27.28</td><td class='num dn'>-15.15%</td><td class='num'>29</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>TSE:9984</td><td class='nm'>SoftBank Group Corp.</td><td class='num'>3,025.00</td><td class='num dn'>-14.48%</td><td class='num'>29</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:NVDA</td><td class='nm'>NVIDIA Corporation</td><td class='num'>125.53</td><td class='num dn'>-14.01%</td><td class='num'>15</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>AMEX:WEBL</td><td class='nm'>Direxion Daily Dow Jones Internet Bull</td><td class='num'>15.61</td><td class='num dn'>-13.13%</td><td class='num'>27</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NYSE:FUBO</td><td class='nm'>FuboTV Inc. Class A</td><td class='num'>5.53</td><td class='num dn'>-11.94%</td><td class='num'>21</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:MRVL</td><td class='nm'>Marvell Technology, Inc.</td><td class='num'>122.28</td><td class='num dn'>-11.69%</td><td class='num'>28</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>AMEX:EWT</td><td class='nm'>iShares MSCI Taiwan ETF</td><td class='num'>74.77</td><td class='num dn'>-10.95%</td><td class='num'>25</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>TSE:6752</td><td class='nm'>Panasonic Holdings Corporation</td><td class='num'>2,687.00</td><td class='num dn'>-10.88%</td><td class='num'>28</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:SOX</td><td class='nm'>PHLX Semiconductor</td><td class='num'>8,408.59</td><td class='num dn'>-10.73%</td><td class='num'>29</td><td class='rate'>強い売り</td></tr><tr><td class='sym'>NASDAQ:OPEN</td><td class='nm'>Opendoor Technologies Inc</td><td class='num'>1.30</td><td class='num dn'>-10.62%</td><td class='num'>37</td><td class='rate'>売り</td></tr></tbody></table></div>
+</div>
+<h2 style="margin-top:22px">セクター別 平均騰落（3銘柄以上）</h2>
+<table><thead><tr><th>セクター</th><th>銘柄数</th><th>平均</th><th></th></tr></thead>
+<tbody><tr><td>その他</td><td class='num'>287</td><td class='num dn'>-2.64%</td><td><div class='bar'><span style='width:32%' class='dn'></span></div></td></tr></tbody></table>
+<h2 style="margin-top:22px">今週の決算（0件・日付順）</h2>
+<div class="card"><div class="asof">該当なし</div></div>
+<h2>今週の主要マクロ指標</h2>
+<table><thead><tr><th>日付</th><th>国</th><th>指標</th><th>予想</th><th>前回</th></tr></thead>
+<tbody><tr><td colspan="5">該当なし</td></tr></tbody></table>
+<h2 style="margin-top:22px">要点</h2>
+<section class='card'><h2>経済・市場</h2><ul><li>S&amp;P500 6,910 -3.70%、週間 -8.6% で調整局面入り</li><li>ナスダック -5.28%、VIX +26.20% の 35.89</li><li>日経 -5.06%、ハンセン -3.79%、金 -4.62%</li></ul></section><section class='card'><h2>マーケット・株価（TradingView）</h2><ul><li>取得 equity 287銘柄：上昇 54 / 下落 231</li><li>RSI≥70 4銘柄、RSI≤30 98銘柄（NVDAなど半導体が売られ過ぎ）</li><li>TradingView クォータ超過で quote は 312/743 件。赤タグは 83 中 23 銘柄のみ</li></ul></section><section class='card'><h2>今週の決算・注目イベント</h2><ul><li>TradingView 決算・経済カレンダーは取得できず（データなし）</li><li>報道ベース: ブラックフライデーの消費、Anthropic のロックアップ、NVIDIA の SEC 調査</li></ul></section><section class='card'><h2>マーケット・ニュース（出典別）</h2><ul><li>MarketWatch: ダウ・S&amp;P500 が調整局面入り、ナスダックは2020年以来の週間安</li><li>Bloomberg / Investing.com: AI 半導体の急落、金とビットコインの下落、債券へ逃避</li><li>Motley Fool: NVIDIA の SEC 調査と AI 関連銘柄の選別</li></ul></section><section class='card'><h2>スクリーニング（Finviz）</h2><ul><li>値上がり: ヘルスケア（AEMD +12.8%、GAP +11.4%）と金融（GPN +9.9%）</li><li>値下がり: ビットコイン採掘（CSIQ -24.9%、MARA -18.6%、IREN -18.0%）と AI データセンター</li><li>事前収集が失敗したため実行時に Finviz MCP を再取得（03:05 UTC 時点）</li></ul></section><section class='card'><h2>アナリスト動向（Yahoo Finance）</h2><ul><li>10銘柄の目標株価を掲載。NVDA は平均目標が現在値の約2倍</li><li>EPS・売上コンセンサスは yfinance の API 変更で取得エラー（データなし）</li></ul></section><section class='card'><h2>世界のニュース</h2><ul><li>中国の国有プロジェクト加速、ベトナムの土地収用法改正、豪州のガス留保協議</li><li>ペルー M6.7 地震、ハイチでエルサルバドル兵死亡、バイエル 72.5 億ドル和解を司法承認</li></ul></section><section class='card'><h2>AI</h2><ul><li>Artificial Analysis MCP: Gemini 4 Carbon 58.3、Claude Fable 5.2 56.4、GPT-6 Astra 55.3（1ページ目のみ）</li><li>NVIDIA への SEC 会計調査報道で -14%、Anthropic は IPO 2日目に -8.5%</li></ul></section><section class='card'><h2>Physical AI</h2><ul><li>専用データソースなし。Waymo の自動運転リコール、韓国の AI データセンター投資を掲載</li><li>Aeva（LiDAR）は -17.66% と AI 株安に巻き込まれた</li></ul></section><section class='card'><h2>見通し・留意点</h2><ul><li>AI 資本支出の再評価が主因。債券買い・金とビットコインの下落が同時進行</li><li>VIX 35.89 の高止まりと 10年債 5% 割れが週明けの分岐点</li><li>データ欠損（TradingView クォータ、Finviz 事前収集、FRED、EPS）を明記</li></ul></section>
+<footer>
+出典: 株価・決算・マクロ指標は TradingView MCP（スナップショット tv-2026-11-21-1700.json）。
+データ欠損 38 銘柄は集計から除外。ニュース・AI の記述は各ソースに基づく。
+本ページの数値は同日の Markdown / Notion ページと同一スナップショット。
+</footer>
 </div></body></html>
