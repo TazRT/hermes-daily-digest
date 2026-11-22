@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#080c18">
+<title>ダイジェスト・アーカイブ｜世界の経済・マーケット・AI</title>
+<meta name="description" content="毎日 0時・7時・12時・17時に生成している世界の経済・マーケット・AI ダイジェストの目次。全68本を新しい順に並べています。">
+<style>
+  :root{
+    --bg:#0b1020; --card:#151c31; --card-2:#1a2238; --line:#26304a; --line-2:#3a4767;
+    --tx:#e8ecf6; --mut:#93a0bd; --faint:#7f8cab; --ac:#6ea8ff; --ac-soft:#2a4170;
+    --radius:14px;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{color-scheme:dark;background:#080c18}
+  body{
+    margin:0;
+    background:linear-gradient(180deg,#080c18,#0b1020 40%,#0a0f1d);
+    color:var(--tx);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN",
+      "Noto Sans JP","Noto Sans CJK JP","Yu Gothic UI",Meiryo,sans-serif;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+    word-break:auto-phrase;
+    overflow-wrap:anywhere;
+  }
+  a{color:var(--ac);text-decoration:none}
+  :where(a,button){touch-action:manipulation;-webkit-tap-highlight-color:rgba(110,168,255,.18)}
+  :focus-visible{outline:2px solid #cfe0ff;outline-offset:3px;border-radius:6px}
+  .skip{position:absolute;left:-9999px;padding:12px 18px;background:#fff;color:#081020;font-weight:700}
+  .skip:focus-visible{left:8px;top:8px;z-index:9}
+  .wrap{
+    width:100%;max-width:1040px;margin-inline:auto;
+    padding-inline:max(18px,env(safe-area-inset-left));
+    padding-right:max(18px,env(safe-area-inset-right));
+  }
+  /* header */
+  .site-head{
+    display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    padding-block:20px 18px;border-bottom:1px solid var(--line);
+  }
+  .mark{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);
+  }
+  .head-link{font-size:13px;color:var(--mut);border-bottom:1px solid transparent;padding-bottom:2px}
+  .head-link:hover,.head-link:focus-visible{color:#fff;border-bottom-color:var(--line-2);text-decoration:none}
+  /* hero */
+  .hero{padding-block:clamp(34px,6vw,64px) clamp(10px,2vw,16px)}
+  .eyebrow{
+    margin:0 0 14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);
+  }
+  h1{
+    margin:0;font-size:clamp(25px,4.6vw,38px);font-weight:700;line-height:1.32;
+    letter-spacing:.01em;text-wrap:balance;
+  }
+  .lede{
+    margin:16px 0 0;max-width:38em;color:var(--mut);font-size:15px;line-height:1.85;text-wrap:pretty;
+  }
+  .stats{
+    display:flex;flex-wrap:wrap;gap:8px 28px;margin:24px 0 0;padding-top:18px;
+    border-top:1px solid var(--line);font-size:12.5px;color:var(--mut);
+  }
+  .stats div{display:flex;align-items:baseline;gap:9px;min-width:0}
+  .stats dt{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);
+  }
+  .stats dd{margin:0;color:var(--tx);font-variant-numeric:tabular-nums}
+  /* section label */
+  .section{padding-block:clamp(26px,4vw,44px) 0}
+  .label{
+    display:flex;align-items:center;gap:14px;margin:0 0 16px;
+    font-size:12.5px;letter-spacing:.04em;color:var(--mut);font-weight:600;
+  }
+  .label::after{content:"";flex:1;height:1px;background:var(--line)}
+  /* featured */
+  .feat{
+    display:block;position:relative;
+    background:linear-gradient(180deg,var(--card-2),var(--card));
+    border:1px solid var(--line);border-left:3px solid var(--ac);
+    border-radius:var(--radius);padding:clamp(18px,3vw,26px);
+    transition:border-color .18s ease, background-color .18s ease;
+  }
+  .feat:hover{border-color:var(--line-2);border-left-color:#9ec6ff;background:var(--card-2);text-decoration:none}
+  .feat__meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+  .badge{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:#081020;background:var(--ac);border-radius:5px;padding:3px 7px;font-weight:700;
+  }
+  .feat__date{font-size:13.5px;color:var(--mut);font-variant-numeric:tabular-nums}
+  .kind{
+    font-size:10.5px;letter-spacing:.06em;color:var(--mut);
+    border:1px solid var(--line-2);border-radius:999px;padding:1px 8px;white-space:nowrap;
+  }
+  h3.feat__title{margin:0;font-size:clamp(19px,2.8vw,24px);font-weight:700;line-height:1.5;color:var(--tx)}
+  .feat__sum{margin:10px 0 0;color:#c9d4ea;font-size:14.5px;line-height:1.8;max-width:70ch}
+  .feat__cta{
+    display:inline-flex;align-items:center;gap:8px;margin-top:18px;
+    font-size:13.5px;font-weight:600;color:var(--ac);
+  }
+  .feat:hover .feat__cta{color:#cfe0ff}
+  /* archive */
+  .group{margin-top:clamp(20px,3vw,30px)}
+  .group__head{
+    display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+    padding-bottom:10px;border-bottom:1px solid var(--line);
+    font-size:14px;font-weight:600;color:var(--tx);margin:0 0 2px;
+  }
+  .group__head time{font-variant-numeric:tabular-nums}
+  .group__wd{
+    font-size:11.5px;font-weight:500;color:var(--faint);
+    border:1px solid var(--line);border-radius:5px;padding:0 6px;
+  }
+  .group__iso{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10.5px;letter-spacing:.06em;color:var(--faint);
+    font-variant-numeric:tabular-nums;
+  }
+  .group__count{
+    margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10.5px;letter-spacing:.08em;color:var(--faint);font-variant-numeric:tabular-nums;
+  }
+  .rows{margin:0;padding:0;list-style:none}
+  .row{
+    display:flex;align-items:flex-start;gap:clamp(10px,2vw,18px);
+    padding:13px 10px;border-radius:10px;color:var(--tx);
+    border-bottom:1px solid rgba(38,48,74,.55);
+    transition:background-color .16s ease, padding-left .16s ease;
+  }
+  .row:hover{background:#151d31;text-decoration:none}
+  .row:hover .row__time{color:#cfe0ff}
+  .row__time{
+    flex:0 0 auto;width:52px;padding-top:1px;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;letter-spacing:.04em;color:var(--faint);font-variant-numeric:tabular-nums;
+  }
+  .row__main{min-width:0;flex:1}
+  .row__sum{
+    color:#c9d4ea;font-size:13.5px;line-height:1.75;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .row__sum--none{color:var(--faint);font-style:normal}
+  .row__kind{margin-right:8px;font-size:10.5px;color:var(--mut);border:1px solid var(--line-2);border-radius:999px;padding:1px 6px;white-space:nowrap}
+  .row__go{flex:0 0 auto;color:var(--line-2);font-size:13px;padding-top:2px}
+  .row:hover .row__go{color:var(--ac)}
+  /* footer */
+  .site-foot{
+    margin-top:clamp(36px,6vw,64px);border-top:1px solid var(--line);
+    padding-block:22px clamp(36px,6vw,56px);
+    display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:space-between;
+    font-size:12.5px;color:var(--faint);
+  }
+  .site-foot p{margin:0}
+  .site-foot nav{display:flex;gap:18px;flex-wrap:wrap}
+  .site-foot a{color:var(--mut)}
+  .site-foot a:hover{color:#fff}
+  @media (max-width:520px){
+    .row{flex-wrap:wrap;gap:2px 12px}
+    .row__time{width:auto}
+    .row__sum{-webkit-line-clamp:3}
+    .row__go{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition-duration:.01ms !important;animation-duration:.01ms !important}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">本文へスキップ</a>
+
+<header class="site-head wrap">
+  <span class="mark">Hermes · Daily Digest</span>
+  <a class="head-link" href="https://github.com/TazRT/hermes-daily-digest" rel="noopener">リポジトリ</a>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="hero wrap" aria-labelledby="page-title">
+    <p class="eyebrow">Archive</p>
+    <h1 id="page-title">世界の経済・マーケット・AI ダイジェスト</h1>
+    <p class="lede">毎日 0時・7時・12時・17時に自動生成しているダイジェストの目次です。気になる日付から、その時点のマーケットと AI の動きを読み返せます。</p>
+    <dl class="stats">
+      <div><dt>期間</dt><dd>2026-10-26 → 2026-11-22</dd></div>
+      <div><dt>本数</dt><dd>68&nbsp;本</dd></div>
+      <div><dt>最新</dt><dd>11月22日 17:00</dd></div>
+      <div><dt>更新</dt><dd>11月22日 23:10</dd></div>
+    </dl>
+  </section>
+
+  <section class="section wrap" aria-labelledby="latest-label">
+    <h2 class="label" id="latest-label">最新のダイジェスト</h2>
+    <a class="feat" href="2026-11-22/digest-20261122-1700.html">
+      <div class="feat__meta">
+        <span class="badge">最新</span>
+        <span class="feat__date"><time datetime="2026-11-22T17:00">2026-11-22 17:00</time></span>
+        
+      </div>
+      <h3 class="feat__title">11月22日（日）17:00 のダイジェスト</h3>
+      <p class="feat__sum">米・日・港の株価は金曜終値のまま。週末は中国AI株1.7兆ドル消失、ビットコイン6万ドル割れ、独IGメタルのスト拡大。S&amp;P500 3.70%安・VIX 35.89、NVDA 14.01%安 RSI 15.0。</p>
+      <span class="feat__cta">最新を読む <span aria-hidden="true">→</span></span>
+    </a>
+  </section>
+
+  <section class="section wrap" aria-labelledby="all-label">
+    <h2 class="label" id="all-label">過去のダイジェスト（新しい順）</h2>
+        <section class="group" aria-labelledby="d-2026-11-22">
+          <h3 class="group__head" id="d-2026-11-22"><time datetime="2026-11-22">11月22日</time><span class="group__wd">日</span><span class="group__iso">2026-11-22</span><span class="group__count">1&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-22/digest-20261122-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">週末は株価が動かず、動いたのはホルムズ海峡のタンカー被弾とSpaceXの320億ドルAI債。S&amp;P500は調整局面、ナスダック週間10%安、VIX 35.89。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-21">
+          <h3 class="group__head" id="d-2026-11-21"><time datetime="2026-11-21">11月21日</time><span class="group__wd">土</span><span class="group__iso">2026-11-21</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-21/digest-20261121-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">AI株再評価でS&amp;P500が調整局面入り。ナスダック週間10%安、VIX 35.89。TradingView・Yahoo Finance・Finviz・公式RSS・Artificial Analysis MCPに基づく</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-21/digest-20261121-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">AI株主導の全面安。NASDAQ -5.28% で年初来マイナス、VIX 35.89。米PCE・感謝祭休場を控えた週の経済・マーケット・世界ニュース。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-20">
+          <h3 class="group__head" id="d-2026-11-20"><time datetime="2026-11-20">11月20日</time><span class="group__wd">金</span><span class="group__iso">2026-11-20</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-20/digest-20261120-1704.html">
+              <span class="row__time">17:04</span>
+              <span class="row__main"><span class="row__sum">TradingView株価・Yahoo Finance・Finviz・公式RSSに基づく。AI/Physical AIニュース除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-20/digest-20261120-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">2026年11月20日 07:00 JST。TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-18">
+          <h3 class="group__head" id="d-2026-11-18"><time datetime="2026-11-18">11月18日</time><span class="group__wd">水</span><span class="group__iso">2026-11-18</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-18/digest-20261118-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500 -1.03%、ダウ平均 -1.64%、NASDAQ -0.74%、日経平均 +0.28%、VIX +11.13%。TradingViewスナップショット（TV 313/742銘柄取得）に基づく。AI・Physical AIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-18/digest-20261118-0702.html">
+              <span class="row__time">07:02</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500−1.03%、ダウ−1.64%、日経平均−1.34%、VIX＋11.13%。TradingViewスナップショットはクォータ超過で取得不可。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-18-ai/digest_2026-11-18.html">
+              <span class="row__time">—</span>
+              <span class="row__main"><span class="row__sum row__sum--none"><span class="row__kind">AI</span>要約なし（本文を開く）</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-17">
+          <h3 class="group__head" id="d-2026-11-17"><time datetime="2026-11-17">11月17日</time><span class="group__wd">火</span><span class="group__iso">2026-11-17</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-17/digest-20261117-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500・ダウ・ナスダック・ラッセル2000、VIX、日経225・ハンセン、米10年債利回り、金先物、TradingView赤タグウォッチリストの騰落とテクニカル、NVIDIAなどの決算・イベント、Bloomberg／MarketWatch／Investing.com／Motley F…</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-17/digest-20261117-0703.html">
+              <span class="row__time">07:03</span>
+              <span class="row__main"><span class="row__sum">NY4大指数大幅安、VIX+18.70%、日経平均-2.42%。AI・Physical AIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-16">
+          <h3 class="group__head" id="d-2026-11-16"><time datetime="2026-11-16">11月16日</time><span class="group__wd">月</span><span class="group__iso">2026-11-16</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-16/digest-20261116-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">日経平均・米国4指数・VIX・債券利回り、TradingView赤タグウォッチリスト銘柄のテクニカル、決算・経済カレンダー、Bloomberg/MarketWatch/Investing.com/Motley Foolニュース、Finvizスクリーニング、Yahoo Financeアナリスト動向、世…</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-16/digest-20261116-0704.html">
+              <span class="row__time">07:04</span>
+              <span class="row__main"><span class="row__sum">TradingView株価・Yahoo Finance・Finviz・公式RSSに基づく。AI/Physical AIニュース除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-15">
+          <h3 class="group__head" id="d-2026-11-15"><time datetime="2026-11-15">11月15日</time><span class="group__wd">日</span><span class="group__iso">2026-11-15</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-15/digest-20261115-1703.html">
+              <span class="row__time">17:03</span>
+              <span class="row__main"><span class="row__sum">米国4指数、VIX、10年債利回り、日経平均、金先物、セクターETFパフォーマンス、TradingViewウォッチリスト銘柄のテクニカル、今週の決算・経済指標、Bloomberg／MarketWatch／Investing.com／Motley Fool ニュース、Finviz スクリー…</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-15/digest-20261115-0703.html">
+              <span class="row__time">07:03</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-14">
+          <h3 class="group__head" id="d-2026-11-14"><time datetime="2026-11-14">11月14日</time><span class="group__wd">土</span><span class="group__iso">2026-11-14</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-14/digest-20261114-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">日経平均・S&amp;P500・ナスダック・ドル円・VIXなど、TradingViewスナップショットに基づく市場概況。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-14/digest-20261114-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準、日経平均・S&amp;P500・ナスダク・VIX・ドル円・金、ウォッチリスト騰落・テクニカル、決算・経済指標、Bloomberg/MarketWatch/Investing.com/Motley Fool ニュース、アナリスト目標株価。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-13">
+          <h3 class="group__head" id="d-2026-11-13"><time datetime="2026-11-13">11月13日</time><span class="group__wd">金</span><span class="group__iso">2026-11-13</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-13/digest-20261113-1703.html">
+              <span class="row__time">17:03</span>
+              <span class="row__main"><span class="row__sum">米長期金利上昇（10年 5.10%）、日経平均 +0.53%、VIX +6.92%、Finviz スクリーナーはデータなし。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-13/digest-20261113-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500 -0.35%、ダウ -0.36%、NASDAQ -0.39%、日経 -0.70%、VIX +6.92%。TradingView ウォッチリストは本日取得不可（データなし）。AI/Physical AI 除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-12">
+          <h3 class="group__head" id="d-2026-11-12"><time datetime="2026-11-12">11月12日</time><span class="group__wd">木</span><span class="group__iso">2026-11-12</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-12/digest-20261112-1710.html">
+              <span class="row__time">17:10</span>
+              <span class="row__main"><span class="row__sum">TradingViewスナップショット取得失敗につき②③⑤はデータなし。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-12/digest-20261112-0702.html">
+              <span class="row__time">07:02</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500 +1.31%、ナスダック +1.60%、日経平均 +1.31%、VIX -10.12%。TradingViewデータは未取得のためセクション②③⑤はデータなし。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-11">
+          <h3 class="group__head" id="d-2026-11-11"><time datetime="2026-11-11">11月11日</time><span class="group__wd">水</span><span class="group__iso">2026-11-11</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-11/digest-20261111-1702.html">
+              <span class="row__time">17:02</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500、ダウ平均、NASDAQ、日経平均、債券利回り、金、原油、地政学ニュース等を掲載。TradingViewスナップショット未取得のため株価・スクリーニング欄はデータなし。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="ai/2026-11-11/digest-ai-20261111-0801.html">
+              <span class="row__time">08:01</span>
+              <span class="row__main"><span class="row__sum"><span class="row__kind">AI</span>データ更新: 2026-11-11 08:01 JST 出典: Artificial Analysis MCP (tier: unknown / インテリジェンス指数 v)</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-11/digest-20261111-0702.html">
+              <span class="row__time">07:02</span>
+              <span class="row__main"><span class="row__sum">米国4指数・日経・VIX・金利・金、アナリスト目標株価、市場ニュース。TradingView/Finvizデータは取得失敗によりデータなし。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-10">
+          <h3 class="group__head" id="d-2026-11-10"><time datetime="2026-11-10">11月10日</time><span class="group__wd">火</span><span class="group__iso">2026-11-10</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-10/digest-20261110-1701.html">
+              <span class="row__time">17:01</span>
+              <span class="row__main"><span class="row__sum">米国4大指数、日経平均、VIX、金利・金・BTCの概況、アナリスト目標株価、出典別市場ニュース、世界のニュースを掲載。AI・フィジカルAIニュースは除外。TradingView MCPスナップショット取得失敗によりウォッチリスト株価・Finvizスクリーナー・決算カレンダーはデータなし。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-10/digest-20261110-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">S&amp;P500 +2.35%、日経平均 +2.33%、VIX -22.3%。TradingView・Finvizデータは本日未取得。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-09">
+          <h3 class="group__head" id="d-2026-11-09"><time datetime="2026-11-09">11月9日</time><span class="group__wd">月</span><span class="group__iso">2026-11-09</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-09/digest-20261109-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 335 下落 245 RSI≥70 25 ・ RSI≤30 54</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-09/digest-20261109-0924.html">
+              <span class="row__time">09:24</span>
+              <span class="row__main"><span class="row__sum">上昇 331 下落 244 RSI≥70 22 ・ RSI≤30 59</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-09/digest-20261109-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">日経平均 -5.96%、S&amp;P500 +0.31%、ナスダック100 +1.35%、VIX 25.64。11/10 米CPI待ち。TradingView 株価データ + RSS ニュース。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-08">
+          <h3 class="group__head" id="d-2026-11-08"><time datetime="2026-11-08">11月8日</time><span class="group__wd">日</span><span class="group__iso">2026-11-08</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-08/digest-20261108-1701.html">
+              <span class="row__time">17:01</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-08/digest-20261108-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット、Finviz スクリーナー、Yahoo Finance アナリストコンセンサス、Bloomberg / MarketWatch / Investing.com / Motley Fool RSS に基づく。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-07">
+          <h3 class="group__head" id="d-2026-11-07"><time datetime="2026-11-07">11月7日</time><span class="group__wd">土</span><span class="group__iso">2026-11-07</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-07/digest-20261107-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">2026-11-07 17:00 JST 基準。TradingView スナップショット（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-07/digest-20261107-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">2026-11-07 07:00 JST。TradingView スナップショットと Bloomberg / MarketWatch / Investing.com / Motley Fool RSS に基づくマーケットダイジェスト。AI・Physical AI セクションは含みません。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-06">
+          <h3 class="group__head" id="d-2026-11-06"><time datetime="2026-11-06">11月6日</time><span class="group__wd">金</span><span class="group__iso">2026-11-06</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-06/digest-20261106-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-06/digest-20261106-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">日経平均・TOPIX、S&amp;P500・ナスダック100、米債利回り、ドル円、金、VIX、Finviz スクリーニング、Yahoo アナリスト目標株価、世界のニュースを掲載。AI・Physical AI は除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-05">
+          <h3 class="group__head" id="d-2026-11-05"><time datetime="2026-11-05">11月5日</time><span class="group__wd">木</span><span class="group__iso">2026-11-05</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-05/digest-20261105-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-05/digest-20261105-0720.html">
+              <span class="row__time">07:20</span>
+              <span class="row__main"><span class="row__sum">TradingView株価・決算・マクロ指標とBloomberg等RSSニュースを掲載。AI・Physical AIは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-05/digest-20261105-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">上昇 383 下落 192 RSI≥70 65 ・ RSI≤30 32</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-04">
+          <h3 class="group__head" id="d-2026-11-04"><time datetime="2026-11-04">11月4日</time><span class="group__wd">水</span><span class="group__iso">2026-11-04</span><span class="group__count">4&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-04/digest-20261104-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-04/digest-20261104-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-04/digest-20261104-0747.html">
+              <span class="row__time">07:47</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-04/digest-20261104-0000.html">
+              <span class="row__time">00:00</span>
+              <span class="row__main"><span class="row__sum">TradingView スナップショット基準（日本=東証クローズ、米国=NYクローズ）。AI・フィジカルAIニュースは除外。</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-03">
+          <h3 class="group__head" id="d-2026-11-03"><time datetime="2026-11-03">11月3日</time><span class="group__wd">火</span><span class="group__iso">2026-11-03</span><span class="group__count">4&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-03/digest-20261103-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 283 下落 298 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-03/digest-20261103-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 280 下落 301 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-03/digest-20261103-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">上昇 280 下落 301 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-03/digest-20261103-0000.html">
+              <span class="row__time">00:00</span>
+              <span class="row__main"><span class="row__sum">上昇 348 下落 233 RSI≥70 41 ・ RSI≤30 34</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-02">
+          <h3 class="group__head" id="d-2026-11-02"><time datetime="2026-11-02">11月2日</time><span class="group__wd">月</span><span class="group__iso">2026-11-02</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-02/digest-20261102-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 208 下落 371 RSI≥70 37 ・ RSI≤30 51</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-02/digest-20261102-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 203 下落 372 RSI≥70 36 ・ RSI≤30 49</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-11-01">
+          <h3 class="group__head" id="d-2026-11-01"><time datetime="2026-11-01">11月1日</time><span class="group__wd">日</span><span class="group__iso">2026-11-01</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-11-01/digest-20261101-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 231 下落 349 RSI≥70 38 ・ RSI≤30 45</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-11-01/digest-20261101-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 231 下落 349 RSI≥70 38 ・ RSI≤30 45</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-31">
+          <h3 class="group__head" id="d-2026-10-31"><time datetime="2026-10-31">10月31日</time><span class="group__wd">土</span><span class="group__iso">2026-10-31</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-31/digest-20261031-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-31/digest-20261031-0000.html">
+              <span class="row__time">00:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-30">
+          <h3 class="group__head" id="d-2026-10-30"><time datetime="2026-10-30">10月30日</time><span class="group__wd">金</span><span class="group__iso">2026-10-30</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-30/digest-20261030-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-30/digest-20261030-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-30/digest-20261030-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-29">
+          <h3 class="group__head" id="d-2026-10-29"><time datetime="2026-10-29">10月29日</time><span class="group__wd">木</span><span class="group__iso">2026-10-29</span><span class="group__count">4&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-29/digest-20261029-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-29/digest-20261029-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 0 下落 0 RSI≥70 0 ・ RSI≤30 0</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-29/digest-20261029-0700.html">
+              <span class="row__time">07:00</span>
+              <span class="row__main"><span class="row__sum">上昇 284 下落 295 RSI≥70 13 ・ RSI≤30 20</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-29/digest-20261029-0000.html">
+              <span class="row__time">00:00</span>
+              <span class="row__main"><span class="row__sum">上昇 226 下落 354 RSI≥70 14 ・ RSI≤30 23</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-28">
+          <h3 class="group__head" id="d-2026-10-28"><time datetime="2026-10-28">10月28日</time><span class="group__wd">水</span><span class="group__iso">2026-10-28</span><span class="group__count">3&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-28/digest-20261028-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 309 下落 271 RSI≥70 14 ・ RSI≤30 22</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-28/digest-20261028-1200.html">
+              <span class="row__time">12:00</span>
+              <span class="row__main"><span class="row__sum">上昇 312 下落 268 RSI≥70 14 ・ RSI≤30 22</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-28/digest-20261028-0000.html">
+              <span class="row__time">00:00</span>
+              <span class="row__main"><span class="row__sum">上昇 313 下落 264 RSI≥70 17 ・ RSI≤30 27</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-27">
+          <h3 class="group__head" id="d-2026-10-27"><time datetime="2026-10-27">10月27日</time><span class="group__wd">火</span><span class="group__iso">2026-10-27</span><span class="group__count">4&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-27/digest-20261027-1700.html">
+              <span class="row__time">17:00</span>
+              <span class="row__main"><span class="row__sum">上昇 334 下落 245 RSI≥70 35 ・ RSI≤30 44</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-27/digest-20261027-1203.html">
+              <span class="row__time">12:03</span>
+              <span class="row__main"><span class="row__sum">上昇 354 下落 219 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-27/digest-20261027-0703.html">
+              <span class="row__time">07:03</span>
+              <span class="row__main"><span class="row__sum">上昇 355 下落 218 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-27/digest-20261027-0539.html">
+              <span class="row__time">05:39</span>
+              <span class="row__main"><span class="row__sum">上昇 354 下落 219 RSI≥70 41 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+        <section class="group" aria-labelledby="d-2026-10-26">
+          <h3 class="group__head" id="d-2026-10-26"><time datetime="2026-10-26">10月26日</time><span class="group__wd">月</span><span class="group__iso">2026-10-26</span><span class="group__count">2&nbsp;件</span></h3>
+          <ul class="rows">
+          <li>
+            <a class="row" href="2026-10-26/digest-20261026-1727.html">
+              <span class="row__time">17:27</span>
+              <span class="row__main"><span class="row__sum">上昇 230 下落 346 RSI≥70 39 ・ RSI≤30 47</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="2026-10-26/digest-20261026-1720.html">
+              <span class="row__time">17:20</span>
+              <span class="row__main"><span class="row__sum">equity 銘柄 588 ・ 上昇 / 下落 230 / 346 ・ 今週の決算 107件</span></span>
+              <span class="row__go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+  </section>
+</main>
+
+<footer class="site-foot wrap">
+  <p>全68本／2026-10-26 → 2026-11-22／毎日 0・7・12・17時に自動生成</p>
+  <nav aria-label="関連リンク">
+    <a href="https://github.com/TazRT/hermes-daily-digest" rel="noopener">GitHub</a>
+    <a href="https://tazrt.github.io/hermes-daily-digest/" rel="noopener">GitHub Pages</a>
+    <a href="https://hermes-daily-digest-video.ryosuke-tanimoto.workers.dev/" rel="noopener">天気動画</a>
+  </nav>
+</footer>
+</body>
+</html>
