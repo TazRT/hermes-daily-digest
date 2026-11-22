@@ -1,0 +1,419 @@
+{
+ "title": "世界の経済・マーケット・ニュース・AI ダイジェスト — 2026-11-23 07:00 (JST)",
+ "stamp": "2026-11-23 07:00",
+ "html_url": "https://tazrt.github.io/hermes-daily-digest/digests/2026-11-23/digest-20261123-0700.html",
+ "og_description": "東京は勤労感謝の日で休場。週末はアジア当局が総動員——台湾は空売り禁止と5,000億台湾ドルの基金投入、韓国は安定基金の即時投入準備、中国は保証金を80%へ。S&P500は7日続落で6,910.39、VIX 35.89、ナスダック100は弱気相場寸前の-19.8%。11/20終値ベース。",
+ "sections": [
+  {
+   "heading": "経済・市場",
+   "bullets": [
+    "S&P500 6,910.39（-3.70%）で7日続落、NASDAQ 22,617.73（-5.28%）、VIX 35.89。",
+    "日本株・米株とも 11/20 終値のまま。本日 11/23 の東京は休場、次の現物は 11/24。",
+    "セクターは生活必需品だけプラス、テクノロジー -7.27%（1ヶ月 -20.02%）。"
+   ]
+  },
+  {
+   "heading": "マーケット・株価（TradingView）",
+   "bullets": [
+    "TradingView MCP が日次クォータ超過。quote 0/743、ウォッチリスト3本すべて失敗。",
+    "本ランの株価・RSI・判定は取得できず。捏造しない。",
+    "前回ラン取得の 11/20 終値のみ参考掲載（NVDA 125.53 / RSI 15 など）。"
+   ]
+  },
+  {
+   "heading": "今週の決算・注目イベント",
+   "bullets": [
+    "11/23 東京休場、11/26 米国感謝祭休場、11/27 は 13:00 ET の早期引け。",
+    "11/25 にコアPCE(10月)・GDP2次速報(Q3)・耐久財・新築住宅販売、Deere 決算。",
+    "決算は Dell / HPE / HP / Workday / Best Buy / Dollar Tree / Li Auto が週内。"
+   ]
+  },
+  {
+   "heading": "マーケット・ニュース（出典別）",
+   "bullets": [
+    "アジア当局の市場支援（台湾・韓国・中国）が週末の最大材料。",
+    "Yardeni が S&P500 年末目標を 7,900→7,500 へ再引き下げ、弱気相場は否定。",
+    "Goldman は買い場としつつリスク警告、Bloomberg は押し目買いの躊躇を報道。"
+   ]
+  },
+  {
+   "heading": "スクリーニング（Finviz）",
+   "bullets": [
+    "時価総額 中堅以上 1,945 銘柄、11/20 終値ベース（as_of 11/22 17:04 ET）。",
+    "値上がり: GAP +11.44%、GPN +9.95%、BKE +5.67% — 消費・決済・金利感応。",
+    "値下がり: IREN -17.97%、APLD -17.81%、HUT -17.65% — AI DC と採掘が直撃。"
+   ]
+  },
+  {
+   "heading": "アナリスト動向（Yahoo Finance）",
+   "bullets": [
+    "10 銘柄の目標株価は前回から不変（11/20 終値ベース）。",
+    "NVDA の乖離 +94.5% はフアン氏退任・SEC 調査前の目標が混在している可能性。",
+    "EPS・売上コンセンサスは yfinance の API 変更でデータなし。"
+   ]
+  },
+  {
+   "heading": "世界のニュース",
+   "bullets": [
+    "台湾: 前日終値割れの空売り禁止（11/23発効）、空売り保証金150%、5,000億台湾ドル（約150億ドル）の基金投入。",
+    "韓国: 日曜の緊急会合で市場安定基金の即時投入準備、自社株買い枠を3ヶ月緩和。",
+    "中国: 信用取引の最低保証金 100%→80%（11/30発効）、約4,000億元の買い余力。"
+   ]
+  },
+  {
+   "heading": "AI",
+   "bullets": [
+    "Artificial Analysis: Claude Opus 5.5 が 59.1 で首位、Gemini 4 Carbon 58.3、GPT-6 Astra 56.9。上位は前回と同一。",
+    "Haiku 5.5 (High) が指数 29.9 を $0.10/$0.50 で提供。性能対価格の裾野が広がる。",
+    "NVDA に SEC 会計調査（Reuters 独占）。フアン氏は 11/11 に退任、Kress 氏が暫定 CEO。"
+   ]
+  },
+  {
+   "heading": "Physical AI",
+   "bullets": [
+    "専用データソースは引き続き未整備。定量データは取得できていない。",
+    "メモリー株急落（SanDisk -16.05%）に Citi が買い評価。供給側の実需は壊れていないとの読み。",
+    "AI データセンター・電源関連（BE -15.30%、CLS -16.00%）の下落が計算基盤コストに波及。"
+   ]
+  },
+  {
+   "heading": "見通し・留意点",
+   "bullets": [
+    "本日は東京休場。値段が動くのは台湾・韓国・中国と 22:30 JST の米国。",
+    "台湾の空売り禁止・基金投入が初日から効くかが、アジア全体の試金石。",
+    "金とビットコインの弱さは「逃避」でなく「現金化」。感謝祭週の薄商いで振れやすい。"
+   ]
+  }
+ ],
+ "news": [
+  {
+   "source": "Bloomberg",
+   "items": [
+    {
+     "title": "Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
+     "published": "2026-11-23 05:31 JST"
+    },
+    {
+     "title": "Goldman Traders See Entry Point in US Stocks But Warn of Risks",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-22/goldman-traders-see-entry-point-in-us-stocks-but-warn-of-risks",
+     "published": "2026-11-23 04:05 JST"
+    },
+    {
+     "title": "Yardeni Cuts S&P 500 Target Again, Says Bear Market Is Unlikely",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-22/yardeni-cuts-s-p-500-target-again-says-bear-market-is-unlikely",
+     "published": "2026-11-23 00:18 JST"
+    },
+    {
+     "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+     "published": "2026-11-23 05:00 JST"
+    }
+   ]
+  },
+  {
+   "source": "Investing.com",
+   "items": [
+    {
+     "title": "Asian countries take steps to aid stock markets after AI rout",
+     "link": "https://www.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-5044034",
+     "published": "2026-11-22 19:12 JST"
+    },
+    {
+     "title": "’Black Friday’ brings consumer spending into focus for AI-rocked market",
+     "link": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5044012",
+     "published": "2026-11-22 23:00 JST"
+    },
+    {
+     "title": "Should you buy the massive dip in memory stocks? Citi weighs in",
+     "link": "https://www.investing.com/news/analyst-ratings/should-you-buy-the-massive-dip-in-memory-stocks-citi-weighs-in-5044137",
+     "published": "2026-11-23 06:38 JST"
+    },
+    {
+     "title": "How exposed is the S&P 500 to an AI trade bust?",
+     "link": "https://www.investing.com/news/stock-market-news/how-exposed-is-sp-500-to-an-ai-trade-bust-5044112",
+     "published": "2026-11-23 05:43 JST"
+    },
+    {
+     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+     "link": "https://www.investing.com/news/stock-market-news/us-seeks-answers-on-nvidias-sale-of-chips-to-china-bessent-says-5044083",
+     "published": "2026-11-23 02:54 JST"
+    }
+   ]
+  },
+  {
+   "source": "MarketWatch",
+   "items": [
+    {
+     "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+     "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+     "published": "2026-11-23 02:00 JST"
+    },
+    {
+     "title": "These little-known investments could be among the best bargains in a crash",
+     "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+     "published": "2026-11-23 03:23 JST"
+    }
+   ]
+  }
+ ],
+ "analyst": [
+  {
+   "ticker": "AAPL",
+   "current": 342.56,
+   "mean": 345.6313,
+   "high": 425.0,
+   "low": 250.0,
+   "gap": 0.896572863148064
+  },
+  {
+   "ticker": "MSFT",
+   "current": 484.52,
+   "mean": 636.12427,
+   "high": 870.0,
+   "low": 440.0,
+   "gap": 31.289579377528288
+  },
+  {
+   "ticker": "NVDA",
+   "current": 125.53,
+   "mean": 244.18286,
+   "high": 425.0,
+   "low": 130.0,
+   "gap": 94.52151676889987
+  },
+  {
+   "ticker": "AMZN",
+   "current": 246.82,
+   "mean": 326.507,
+   "high": 405.0,
+   "low": 230.0,
+   "gap": 32.285471193582374
+  },
+  {
+   "ticker": "GOOGL",
+   "current": 265.29,
+   "mean": 397.1283,
+   "high": 500.0,
+   "low": 300.0,
+   "gap": 49.69591767499717
+  },
+  {
+   "ticker": "META",
+   "current": 560.84,
+   "mean": 848.2262,
+   "high": 1050.0,
+   "low": 650.0,
+   "gap": 51.242101134013254
+  },
+  {
+   "ticker": "TSLA",
+   "current": 345.82,
+   "mean": 417.52625,
+   "high": 600.0,
+   "low": 128.11,
+   "gap": 20.735136776357646
+  },
+  {
+   "ticker": "WMT",
+   "current": 127.95,
+   "mean": 135.90244,
+   "high": 155.0,
+   "low": 81.0,
+   "gap": 6.215271590465033
+  },
+  {
+   "ticker": "KO",
+   "current": 96.99,
+   "mean": 99.64,
+   "high": 112.0,
+   "low": 88.0,
+   "gap": 2.732240437158476
+  },
+  {
+   "ticker": "JPM",
+   "current": 310.53,
+   "mean": 373.47827,
+   "high": 425.0,
+   "low": 312.0,
+   "gap": 20.271236273467956
+  }
+ ],
+ "screener": [
+  {
+   "label": "値上がり上位10（cap_midover）",
+   "rows": [
+    {
+     "ticker": "GAP",
+     "company": "Gap Inc",
+     "industry": "Apparel Retail",
+     "price": 20.94,
+     "change": 11.44,
+     "mktcap_musd": 7355.6
+    },
+    {
+     "ticker": "GPN",
+     "company": "Global Payments Inc",
+     "industry": "Software - Infrastructure",
+     "price": 91.83,
+     "change": 9.95,
+     "mktcap_musd": 24301.51
+    },
+    {
+     "ticker": "BKE",
+     "company": "Buckle Inc",
+     "industry": "Apparel Retail",
+     "price": 44.15,
+     "change": 5.67,
+     "mktcap_musd": 2274.27
+    },
+    {
+     "ticker": "HTFL",
+     "company": "Heartflow Inc",
+     "industry": "Health Information Services",
+     "price": 46.69,
+     "change": 4.62,
+     "mktcap_musd": 4103.47
+    },
+    {
+     "ticker": "HDB",
+     "company": "HDFC Bank Ltd ADR",
+     "industry": "Banks - Regional",
+     "price": 27.42,
+     "change": 4.5,
+     "mktcap_musd": 141052.04
+    },
+    {
+     "ticker": "KVYO",
+     "company": "Klaviyo Inc",
+     "industry": "Software - Application",
+     "price": 22.24,
+     "change": 4.41,
+     "mktcap_musd": 6262.04
+    },
+    {
+     "ticker": "PLMR",
+     "company": "Palomar Holdings Inc",
+     "industry": "Insurance - P&C",
+     "price": 163.59,
+     "change": 4.41,
+     "mktcap_musd": 4301.59
+    },
+    {
+     "ticker": "BGSI",
+     "company": "Boyd Group Services Inc",
+     "industry": "Auto & Truck Dealerships",
+     "price": 73.62,
+     "change": 4.25,
+     "mktcap_musd": 2037.07
+    },
+    {
+     "ticker": "RKT",
+     "company": "Rocket Companies Inc",
+     "industry": "Mortgage Finance",
+     "price": 13.75,
+     "change": 4.25,
+     "mktcap_musd": 39021.08
+    },
+    {
+     "ticker": "BIP",
+     "company": "Brookfield Infrastructure Partners",
+     "industry": "Utilities - Diversified",
+     "price": 42.81,
+     "change": 4.24,
+     "mktcap_musd": 27745.39
+    }
+   ]
+  },
+  {
+   "label": "値下がり上位10（cap_midover）",
+   "rows": [
+    {
+     "ticker": "IREN",
+     "company": "IREN Ltd",
+     "industry": "Capital Markets",
+     "price": 11.82,
+     "change": -17.97,
+     "mktcap_musd": 5015.9
+    },
+    {
+     "ticker": "APLD",
+     "company": "Applied Digital Corp",
+     "industry": "IT Services",
+     "price": 11.49,
+     "change": -17.81,
+     "mktcap_musd": 3474.43
+    },
+    {
+     "ticker": "HUT",
+     "company": "Hut 8 Corp",
+     "industry": "Capital Markets",
+     "price": 45.95,
+     "change": -17.65,
+     "mktcap_musd": 5515.73
+    },
+    {
+     "ticker": "AAOI",
+     "company": "Applied Optoelectronics Inc",
+     "industry": "Communication Equipment",
+     "price": 32.93,
+     "change": -16.55,
+     "mktcap_musd": 2989.08
+    },
+    {
+     "ticker": "CIFR",
+     "company": "Cipher Digital Inc",
+     "industry": "IT Services",
+     "price": 5.43,
+     "change": -16.13,
+     "mktcap_musd": 2480.34
+    },
+    {
+     "ticker": "NBIS",
+     "company": "Nebius Group NV",
+     "industry": "Software - Infrastructure",
+     "price": 81.31,
+     "change": -16.11,
+     "mktcap_musd": 23815.89
+    },
+    {
+     "ticker": "SNDK",
+     "company": "Sandisk Corp",
+     "industry": "Computer Hardware",
+     "price": 79.24,
+     "change": -16.05,
+     "mktcap_musd": 92817.93
+    },
+    {
+     "ticker": "CLS",
+     "company": "Celestica Inc",
+     "industry": "Electronic Components",
+     "price": 201.8,
+     "change": -16.0,
+     "mktcap_musd": 25449.0
+    },
+    {
+     "ticker": "BLTE",
+     "company": "Belite Bio Inc ADR",
+     "industry": "Biotechnology",
+     "price": 127.38,
+     "change": -15.65,
+     "mktcap_musd": 5172.9
+    },
+    {
+     "ticker": "BE",
+     "company": "Bloom Energy Corp",
+     "industry": "Electrical Equipment",
+     "price": 142.39,
+     "change": -15.3,
+     "mktcap_musd": 42098.55
+    }
+   ]
+  }
+ ],
+ "kpi": [
+  "^GSPC",
+  "^IXIC",
+  "^N225"
+ ]
+}
