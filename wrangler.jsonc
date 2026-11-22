@@ -2,6 +2,8 @@
   "name": "hermes-daily-digest",
   "compatibility_date": "2026-11-22",
   "assets": {
-    "directory": "./digests"
+    "directory": "./digests",
+    "not_found_handling": "404-page",
+    "html_handling": "none"
   }
 }
