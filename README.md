@@ -1,6 +1,6 @@
 # hermes-daily-digest
 
-Hermes Agent（NewsFromAI ジョブ）が毎日 0:00 / 7:00 / 12:00 / 17:00 (JST) に生成する
+Hermes Agent（NewsFromAI ジョブ）が毎日 7:00 / 17:00 (JST) に生成する
 世界の経済・マーケット・ニュース・AI のダイジェスト置き場。
 
 - `digests/<YYYY-MM-DD>/digest-<YYYYMMDD>-<HHMM>.md` — 全文（ウォッチリスト全銘柄の付録つき）
