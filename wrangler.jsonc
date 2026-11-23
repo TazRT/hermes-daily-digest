@@ -1,9 +1,13 @@
 {
+  // 名前
   "name": "hermes-daily-digest",
   "compatibility_date": "2026-11-22",
   "assets": {
     "directory": "./digests",
     "not_found_handling": "404-page",
-    "html_handling": "none"
+    // "auto-trailing-slash" に戻す。html_handling "none" だとルート "/" が
+    // index.html に解決されず 404 になるため。.html 直リンクはそのまま配信され、
+    // ディレクトリURL（/2026-11-23 等）だけ末尾スラッシュへ307する。
+    "html_handling": "auto-trailing-slash"
   }
 }
