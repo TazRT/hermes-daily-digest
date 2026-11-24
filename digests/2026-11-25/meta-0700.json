@@ -1,0 +1,493 @@
+{
+  "title": "世界の経済・マーケット・ニュース ダイジェスト",
+  "stamp": "2026-11-25 07:00",
+  "html_url": "https://hermes-daily-digest.ryosuke-tanimoto.workers.dev/2026-11-25/digest-20261125-0700.html",
+  "pages_url": "https://tazrt.github.io/hermes-daily-digest/digests/2026-11-25/digest-20261125-0700.html",
+  "og_description": "11/24 NY: NASDAQ -1.48%・S&P500 -0.50% に対しダウ +0.85%。半導体反落（SOX -7.88%）。日経 58,644.63円（+3.91%）。金 3,552.80ドル、BTC 59,821.36ドル、VIX 26.36。",
+  "as_of": "日本株=11/24 東証終値／米株=11/24 NY終値（取得 11/25 06:30〜07:01 JST）／アジア=11/24 現地終値",
+  "us_close_label": "米国主要指数（11/24 NY終値）",
+  "footer_note": "株価・金利・金・BTC は Yahoo Finance スナップショット mkt-2026-11-25-0701.json。銘柄騰落・RSI・判定は TradingView MCP（tv-2026-11-25-0700.json、743銘柄中312銘柄）。ニュースは Bloomberg / MarketWatch / Investing.com / Motley Fool の RSS。Finviz 騰落上位は本ランで MCP を直接実行。決算・経済カレンダーはツール未提供・クォータ超過で「データなし」。本ページの数値は同日の Markdown / Notion ページと同一スナップショット。",
+  "sections": [
+    {
+      "heading": "経済・市場",
+      "bullets": [
+        "S&P500 -0.50% / ダウ +0.85% / NASDAQ -1.48% / ラッセル2000 +0.57%。",
+        "VIX 26.36（-0.98%）。米10年 4.904%、30年 5.292%。",
+        "AI・半導体からバリュー・小型へのローテーションが一日で表面化。"
+      ]
+    },
+    {
+      "heading": "マーケット・株価（TradingView）",
+      "bullets": [
+        "ウォッチリスト743銘柄中312銘柄を取得（クォータ途中遮断）。株式287銘柄で上昇145／下落137。",
+        "RSI70以上は0銘柄、RSI30以下は33銘柄。判定は「売り」161・「強い売り」46に対し「買い」63・「強い買い」8。",
+        "上昇はSOXS +24.13%、6752 +9.66%。下落はSOX -7.88%、MRVL -9.10%。"
+      ]
+    },
+    {
+      "heading": "今週の決算・注目イベント",
+      "bullets": [
+        "11/24: ADI -17.37%・HPE -16.31%・DELL -11.83% と「好決算で売られる」展開。",
+        "11/25: 米10月PCE・コアPCE。今週の最大の関門。",
+        "11/26 感謝祭で休場、11/27 短縮取引＋東京都区部CPI。TV のカレンダーはツール未提供のためデータなし。"
+      ]
+    },
+    {
+      "heading": "マーケット・ニュース（出典別）",
+      "bullets": [
+        "Bloomberg: 中国・EU への関税引き上げ準備、イラン情勢の既定路線化、JPMorgan の2027年目標8,200。",
+        "MarketWatch: Anthropic が IPO 価格割れ、HPE は最強成長でも株安、Micron に供給過剰警告。",
+        "Investing.com: Nasdaq 1.5%安、DELL 通期上方修正、PCE を前にインフレ圧力残存。"
+      ]
+    },
+    {
+      "heading": "スクリーニング（Finviz）",
+      "bullets": [
+        "MKT の finviz 呼び出しは失敗。本ランで Finviz MCP を直接実行し S&P500 の騰落上位10を取得。",
+        "値上がり: DLTR +11.18%、CSGP +8.08%、MRNA +7.21%。ディフェンシブ・ヘルスケア寄り。",
+        "値下がり10銘柄は全銘柄が Technology。ADI -17.37%、HPE -16.31%、DELL -11.83%。"
+      ]
+    },
+    {
+      "heading": "アナリスト動向（Yahoo Finance）",
+      "bullets": [
+        "NVDA 現在 155.38 に対し平均目標 244.71（+57.5%）。古い目標が混在。",
+        "StoneX が Hold→Buy（270）、Bernstein が Outperform へ。Jefferies は 300→250 に引き下げ。",
+        "EPS・売上コンセンサスは yfinance の API 変更でデータなし。"
+      ]
+    },
+    {
+      "heading": "日本株・アジア市場",
+      "bullets": [
+        "日経平均 58,644.63 円（+3.91%）。4営業日ぶりの再開で前週末安と米株高を同時に織り込む。",
+        "TOPIX 3,764.88。ハンセン 22,219.65（-0.73%）。",
+        "東証61銘柄は 6752・9984・4063 が主導。RSI は30〜50に密集し判定は「売り」多数。"
+      ]
+    },
+    {
+      "heading": "コモディティ・為替",
+      "bullets": [
+        "金 3,552.80 ドル（-2.70%）。3,600ドル台を割り込み。",
+        "BTC 59,821.36 ドル（-2.35%）、ETH 1,678.28 ドル。",
+        "ドル円 159.193 円。原油はデータなし。"
+      ]
+    },
+    {
+      "heading": "セクター動向",
+      "bullets": [
+        "11セクター中9セクター上昇。XLV +2.95%、XLP +1.66%、XLK -3.26% が唯一の大幅安。",
+        "1ヶ月では XLK -17.75%、XLC +1.27%。1日のリバウンドでは埋まらない。",
+        "YTD は XLE +59.61%、XLK +25.14%、XLV +20.93%。"
+      ]
+    },
+    {
+      "heading": "世界のニュース",
+      "bullets": [
+        "米国が中国・EU 製品への関税引き上げを準備。通商再緊張。",
+        "イラン情勢はエスカレーションが既定路線との見方。",
+        "ロシア MOEX -2.01%、トロント -0.35%。新興国はまちまち。"
+      ]
+    },
+    {
+      "heading": "総括",
+      "bullets": [
+        "AI の反動とバリュー逃避が同時進行。NASDAQ 安・ダウ高のねじれ。",
+        "東京は +3.91% と急伸したが、個別の RSI は低く裾野は狭い。",
+        "金・BTC も売られ、現金化圧力が強い一日。11/25 PCE が分岐点。"
+      ]
+    },
+    {
+      "heading": "見通し・留意点",
+      "bullets": [
+        "コア PCE 上振れなら 10年 5% トライとハイテク再安。下振れなら買い戻し。",
+        "感謝祭週の薄商い。11/26 休場・11/27 短縮で振れやすい。",
+        "半導体の「好決算・株安」が続くなら指数の上値は重い。データ欠損は明記のうえ推測で補っていない。"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "source": "Bloomberg",
+      "items": [
+        {
+          "title": "US Readies Tariff Hike on China, EU Goods",
+          "link": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+          "published": "2026-11-24 21:58"
+        },
+        {
+          "title": "Quant Funds Are Having a Hard Time Keeping Up With This Market",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-24/quant-funds-are-having-a-hard-time-keeping-up-with-this-market",
+          "published": "2026-11-24 21:36"
+        },
+        {
+          "title": "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-24/bond-traders-rush-to-hedge-risk-of-fed-hikes-stalling-economy",
+          "published": "2026-11-24 21:30"
+        },
+        {
+          "title": "Escalation in Iran Appears As the Default",
+          "link": "https://www.bloomberg.com/news/videos/2026-11-24/opinion-escalation-in-iran-appears-as-the-default-video",
+          "published": "2026-11-24 21:27"
+        },
+        {
+          "title": "Dell Raises AI Server Outlook as Backlog Hits Record $132 Billion | Closing Bell",
+          "link": "https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video",
+          "published": "2026-11-24 21:21"
+        }
+      ]
+    },
+    {
+      "source": "MarketWatch",
+      "items": [
+        {
+          "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+          "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+          "published": "2026-11-24 21:53"
+        },
+        {
+          "title": "Anthropic’s stock just broke below its IPO price for the first time",
+          "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+          "published": "2026-11-24 21:46"
+        },
+        {
+          "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+          "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+          "published": "2026-11-24 21:45"
+        },
+        {
+          "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
+          "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
+          "published": "2026-11-24 21:31"
+        },
+        {
+          "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+          "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+          "published": "2026-11-24 21:30"
+        }
+      ]
+    },
+    {
+      "source": "Investing.com",
+      "items": [
+        {
+          "title": "Guggenheim Trust launches $150 million share offering through Cantor Fitzgerald",
+          "link": "https://www.investing.com/news/sec-filings/guggenheim-trust-launches-150-million-share-offering-through-cantor-fitzgerald-93CH-5049156",
+          "published": "2026-11-24 21:54"
+        },
+        {
+          "title": "Nvidia stock falls nearly 6% after Huang’s return sparks best day in over 23 years",
+          "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-5048533",
+          "published": "2026-11-24 21:51"
+        },
+        {
+          "title": "HP Inc earnings beat by $0.08, revenue topped estimates",
+          "link": "https://www.investing.com/news/earnings/hp-inc-earnings-beat-by-008-revenue-topped-estimates-5049153",
+          "published": "2026-11-24 21:50"
+        },
+        {
+          "title": "Universal Health Services to sell Aiken Regional Medical Centers for $500 million",
+          "link": "https://www.investing.com/news/sec-filings/universal-health-services-to-sell-aiken-regional-medical-centers-for-500-million-93CH-5049146",
+          "published": "2026-11-24 21:49"
+        },
+        {
+          "title": "SmartStop adds Las Vegas self-storage site, its 13th in market",
+          "link": "https://www.investing.com/news/company-news/smartstop-adds-las-vegas-selfstorage-site-its-13th-in-market-93CH-5049145",
+          "published": "2026-11-24 21:48"
+        }
+      ]
+    },
+    {
+      "source": "Motley Fool",
+      "items": [
+        {
+          "title": "PennantPark (PNNT) Q4 2026 Earnings Call Transcript",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/11/24/pennantpark-pnnt-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
+          "published": "2026-11-24 16:54"
+        },
+        {
+          "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
+          "link": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/?source=iedfolrf0000001",
+          "published": "2026-11-24 16:54"
+        },
+        {
+          "title": "Stock Market Today, Nov. 24: Hecla Mining Slides as Silver Prices Fall on Rate-Hike Worries",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-hecla-mining-slides-as-silver-prices-fall-on-rate-hike-worries/?source=iedfolrf0000001",
+          "published": "2026-11-24 16:53"
+        },
+        {
+          "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/?source=iedfolrf0000001",
+          "published": "2026-11-24 16:51"
+        },
+        {
+          "title": "Abercrombie (ANF) Q3 2026 Earnings Call Transcript",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/11/24/abercrombie-anf-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+          "published": "2026-11-24 16:38"
+        }
+      ]
+    }
+  ],
+  "analyst": [
+    {
+      "ticker": "AAPL",
+      "current": 354.07,
+      "mean": 345.6313,
+      "high": 425.0,
+      "low": 250.0
+    },
+    {
+      "ticker": "MSFT",
+      "current": 496.13,
+      "mean": 637.3617,
+      "high": 870.0,
+      "low": 440.0
+    },
+    {
+      "ticker": "NVDA",
+      "current": 155.38,
+      "mean": 244.71103,
+      "high": 425.0,
+      "low": 130.0
+    },
+    {
+      "ticker": "AMZN",
+      "current": 252.29,
+      "mean": 326.34033,
+      "high": 405.0,
+      "low": 230.0
+    },
+    {
+      "ticker": "GOOGL",
+      "current": 279.05,
+      "mean": 395.47815,
+      "high": 500.0,
+      "low": 300.0
+    },
+    {
+      "ticker": "META",
+      "current": 589.82,
+      "mean": 842.53656,
+      "high": 1050.0,
+      "low": 650.0
+    },
+    {
+      "ticker": "TSLA",
+      "current": 384.68,
+      "mean": 419.05,
+      "high": 600.0,
+      "low": 128.11
+    },
+    {
+      "ticker": "WMT",
+      "current": 132.31,
+      "mean": 136.14635,
+      "high": 155.0,
+      "low": 81.0
+    },
+    {
+      "ticker": "KO",
+      "current": 97.62,
+      "mean": 99.64,
+      "high": 112.0,
+      "low": 88.0
+    },
+    {
+      "ticker": "JPM",
+      "current": 317.1,
+      "mean": 373.47827,
+      "high": 425.0,
+      "low": 312.0
+    }
+  ],
+  "screener": [
+    [
+      "ADI",
+      "Analog Devices Inc",
+      "Technology",
+      312.95,
+      -17.37
+    ],
+    [
+      "HPE",
+      "Hewlett Packard Enterprise Co",
+      "Technology",
+      40.19,
+      -16.31
+    ],
+    [
+      "DELL",
+      "Dell Technologies Inc",
+      "Technology",
+      295.28,
+      -11.83
+    ],
+    [
+      "TXN",
+      "Texas Instruments Inc",
+      "Technology",
+      258.44,
+      -11.25
+    ],
+    [
+      "SNDK",
+      "Sandisk Corp",
+      "Technology",
+      77.95,
+      -11.13
+    ],
+    [
+      "MU",
+      "Micron Technology Inc",
+      "Technology",
+      629.79,
+      -11.01
+    ],
+    [
+      "MPWR",
+      "Monolithic Power System Inc",
+      "Technology",
+      1190.16,
+      -10.77
+    ],
+    [
+      "LITE",
+      "Lumentum Holdings Inc",
+      "Technology",
+      487.12,
+      -10.52
+    ],
+    [
+      "FLEX",
+      "Flex Ltd",
+      "Technology",
+      66.44,
+      -10.14
+    ],
+    [
+      "CIEN",
+      "Ciena Corp",
+      "Technology",
+      239.27,
+      -9.62
+    ]
+  ],
+  "events": [
+    {
+      "date": "11/24 (火)",
+      "items": [
+        "ADI・DELL・HPE 決算",
+        "米 消費者信頼感",
+        "2年債入札"
+      ]
+    },
+    {
+      "date": "11/25 (水)",
+      "items": [
+        "米 10月PCE / コアPCE"
+      ]
+    },
+    {
+      "date": "11/26 (木)",
+      "items": [
+        "米 感謝祭で休場"
+      ]
+    },
+    {
+      "date": "11/27 (金)",
+      "items": [
+        "米 短縮取引",
+        "東京都区部CPI"
+      ]
+    }
+  ],
+  "sector": [
+    [
+      "ヘルスケア",
+      "XLV",
+      "+2.95%",
+      "+1.96%",
+      "+2.78%",
+      "+20.93%"
+    ],
+    [
+      "生活必需品",
+      "XLP",
+      "+1.66%",
+      "+0.77%",
+      "+5.80%",
+      "+17.32%"
+    ],
+    [
+      "不動産",
+      "XLRE",
+      "+1.31%",
+      "-0.37%",
+      "+3.16%",
+      "+9.48%"
+    ],
+    [
+      "エネルギー",
+      "XLE",
+      "+0.97%",
+      "-1.37%",
+      "-11.69%",
+      "+59.61%"
+    ],
+    [
+      "金融",
+      "XLF",
+      "+0.83%",
+      "-0.55%",
+      "-0.04%",
+      "+4.46%"
+    ],
+    [
+      "コミュニケーション",
+      "XLC",
+      "+0.82%",
+      "-1.07%",
+      "+1.27%",
+      "-14.36%"
+    ],
+    [
+      "一般消費財",
+      "XLY",
+      "+0.68%",
+      "-1.24%",
+      "+2.07%",
+      "-2.76%"
+    ],
+    [
+      "素材",
+      "XLB",
+      "+0.54%",
+      "-0.57%",
+      "-3.26%",
+      "+17.87%"
+    ],
+    [
+      "公益事業",
+      "XLU",
+      "+0.18%",
+      "-0.34%",
+      "+2.14%",
+      "+3.88%"
+    ],
+    [
+      "工業",
+      "XLI",
+      "-0.53%",
+      "-1.85%",
+      "-4.08%",
+      "+8.82%"
+    ],
+    [
+      "テクノロジー",
+      "XLK",
+      "-3.26%",
+      "-4.10%",
+      "-17.75%",
+      "+25.14%"
+    ]
+  ]
+}
