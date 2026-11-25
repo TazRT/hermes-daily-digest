@@ -1,0 +1,15 @@
+/* AIニュースダイジェスト 共通ナビ */
+.digest-nav{position:sticky;top:0;z-index:99;display:flex;gap:18px;align-items:center;
+ padding:10px 16px;background:#0b1220ee;color:#e9eef7;font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;
+ font-size:14px;backdrop-filter:blur(8px);border-bottom:1px solid #1f2a3d}
+.digest-nav a{color:#8fb6ff;text-decoration:none}
+.digest-nav a:hover{text-decoration:underline}
+.digest-nav-date{margin-left:auto;color:#8b9bb4}
+body.digest-archive{background:#0b1220;color:#e9eef7;font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;
+ margin:0;padding:32px 16px}
+body.digest-archive h1{font-size:20px;margin:0 0 6px}
+body.digest-archive p.lead{color:#8b9bb4;margin:0 0 24px}
+body.digest-archive ul{list-style:none;padding:0;margin:0;max-width:760px}
+body.digest-archive li{padding:12px 0;border-bottom:1px solid #1f2a3d}
+body.digest-archive a{color:#9dc0ff;text-decoration:none;font-size:15px}
+body.digest-archive .meta{color:#7d8ba3;font-size:12px;margin-top:4px}
